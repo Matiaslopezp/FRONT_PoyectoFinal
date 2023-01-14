@@ -3,11 +3,11 @@ import React from "react";
 
 
 export const Libreria = ()=> {
-    return 
+    return ( 
     <div className="container ">
         <h1>Librería digital</h1>
     </div>
-}
+)}
     
     
     
