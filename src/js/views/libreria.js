@@ -1,6 +1,6 @@
 import { defaults } from "gh-pages";
 import React from "react";
-import {CardHorizontal} from "../component/card-libreria"
+import { CardHorizontal } from "../component/card-libreria";
 
 
 
@@ -37,5 +37,7 @@ export const Libreria = ()=> {
 
     </div>
 )}
+
+
     
     

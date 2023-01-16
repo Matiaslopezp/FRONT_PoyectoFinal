@@ -14,7 +14,7 @@ export const CardHorizontal = (props) => {
                         <div className="card-body">
                             <h5 className="card-title">{props.titulo} </h5>
                             <p className="card-text">{props.descripcion} </p>
-                            <button type="button" class="btn btn-warning">{props.boton} </button>
+                            <Link to={props.ruta} > <button type="button" class="btn btn-warning">{props.boton} </button>  </Link>
 
                         </div>
                     </div>
