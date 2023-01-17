@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+}
+
+.titulo{
+    background-color: gray;
+    font-size: 40px;
+    text-align: center;
+    padding: 2%;
+}
+
+.carrusel{
+    background-color:  blue;
+    width: 100%;
+}
+
+.logo img{
+    background: lightblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 75%;
+    max-height: 100px;
+}
+
+.carousel-inner{
+ height: 200px;
+}

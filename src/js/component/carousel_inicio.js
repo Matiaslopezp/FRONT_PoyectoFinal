@@ -1,44 +1,24 @@
-import { React } from "react";
+import React from "react";
+import "../../styles/inicio.css"
 
-export const Carousel_inicio= ()=>{
-return (<div id="carouselExampleCaptions" classname="carousel slide">
-<div classname="carousel-indicators">
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" classname="active" aria-current="true" aria-label="Slide 1"></button>
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-</div>
-<div classname="carousel-inner">
-  <div classname="carousel-item active">
-    <img src="..." classname="d-block w-100" alt="..."/>
-    <div classname="carousel-caption d-none d-md-block">
-      <h5>First slide label</h5>
-      <p>Some representative placeholder content for the first slide.</p>
+export const Carousel_inicio = () => {
+  return (<div>
+
+    <h1>está bueno</h1>
+    <div id="carouselExampleSlidesOnly" className="carousel slide h-15" data-bs-ride="carousel">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src="https://educacion30.b-cdn.net/wp-content/uploads/2019/02/girasoles-978x652.jpg.webp" className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src="https://www.shutterstock.com/image-photo/hand-touching-virtual-world-connection-600w-1750972730.jpg" className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src="..." className="d-block w-100" alt="..." />
+        </div>
+      </div>
     </div>
-  </div>
-  <div classname="carousel-item">
-    <img src="..." classname="d-block w-100" alt="..."/>
-    <div classname="carousel-caption d-none d-md-block">
-      <h5>Second slide label</h5>
-      <p>Some representative placeholder content for the second slide.</p>
-    </div>
-  </div>
-  <div classname="carousel-item">
-    <img src="..." classname="d-block w-100" alt="..."/>
-    <div classname="carousel-caption d-none d-md-block">
-      <h5>Third slide label</h5>
-      <p>Some representative placeholder content for the third slide.</p>
-    </div>
-  </div>
-</div>
-<button classname="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-  <span classname="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span classname="visually-hidden">Previous</span>
-</button>
-<button classname="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-  <span classname="carousel-control-next-icon" aria-hidden="true"></span>
-  <span classname="visually-hidden">Next</span>
-</button>
-</div>)
+  </div>)
 
 }
 
