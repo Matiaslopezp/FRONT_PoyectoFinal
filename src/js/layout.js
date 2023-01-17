@@ -5,12 +5,18 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
+import { Libreria } from "./views/libreria";
+import { Canciones } from "./views/canciones";
+import { Capsulas } from "./views/capsulas";
+import { Mazapan } from "./views/mazapan";
+import { Aplicacion } from "./views/aplicacion";
+
+
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
-import { Libreria } from "./views/libreria";
 
 //create your first component
 const Layout = () => {
@@ -29,10 +35,10 @@ const Layout = () => {
 						<Route path="/single/:theid" element={<Single />} />
 
 						<Route path="/libreria" element={<Libreria />} />
-						<Route path="/libreria/mazapan" element={<Home />} />
-						<Route path="/libreria/canciones" element={<Home />} />
-						<Route path="/libreria/capsulas" element={<Home />} />
-						<Route path="/libreria/aplicacion" element={<Home />} />
+						<Route path="/mazapan" element={<Mazapan />} />
+						<Route path="/canciones" element={<Canciones />} />
+						<Route path="/capsulas" element={<Capsulas />} />
+						<Route path="/aplicacion" element={<Aplicacion />} />
 
 
 

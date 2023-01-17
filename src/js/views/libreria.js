@@ -20,7 +20,7 @@ export const Libreria = ()=> {
                                 descripcion="Las clásicas canciones del grupo infantil Mazapán en lengua de señas chilena para que los más
                                             pequeños y pequeñas aprendan de manera entretenida a comunicarse a partir de los gestos."
                                 boton="Ver"
-                                ruta="/libreria/mazapan"/>
+                                ruta="/mazapan"/>
             </div>
 
             <div className="col-6 d-flex">
@@ -28,7 +28,7 @@ export const Libreria = ()=> {
                                 img="https://static.theclinic.cl/media/2019/02/Captura-de-pantalla-2019-02-20-a-las-18.19.09.png"
                                 descripcion="Aprende el poder de la interpretación a través de estas canciones y toda su emoción."
                                 boton="Ver"
-                                ruta="libreria/canciones" />
+                                ruta="/canciones" />
             </div>
 
             <div className="col-6 d-flex">
@@ -36,7 +36,7 @@ export const Libreria = ()=> {
                                 img="https://www.wazu.cl/site/wp-content/uploads/2022/04/interprete-ls.jpg"
                                 descripcion="Si tu intención es ampliar tu vocabulario en Lengua de Señas Chilena estas cápsulas educativas creadas por la Ilustre Municipalidad de San Miguel son para ti."
                                 boton="Ver"
-                                ruta="libreria/capsulas"/>
+                                ruta="/capsulas"/>
             </div>
 
             <div className="col-6 d-flex">
@@ -44,7 +44,7 @@ export const Libreria = ()=> {
                                 img="https://i.prcdn.co/img?regionKey=sSeACsuM8bLsljMew8hG%2FA%3D%3D"
                                 descripcion="Descarga esta app en tu dispositivo móvil, practica en cualquier lugar que estes y sigue aprendiendo."
                                 boton="Ver"
-                                ruta="libreria/aplicacion"/>
+                                ruta="/aplicacion"/>
             </div>
                      
         </div>
