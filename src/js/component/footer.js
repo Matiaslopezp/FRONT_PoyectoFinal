@@ -7,7 +7,7 @@ export const Footer = () => (
 	<footer className="bg-success text-center text-white ">
  
   <div className="container p-4 "/>
-  <span>📍 AV.Andres Bello, Santiago </span>
+  <span>📍 Av. Andres Bello #333, Santiago </span>
   <p> COPYRIGHT © 2023. DERECHOS RESERVADOS . Sitio desarrollado por estudiantes de 4GeeksAcademy
   </p>
   <p>+56255666555</p>
