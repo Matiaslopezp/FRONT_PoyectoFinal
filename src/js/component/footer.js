@@ -7,8 +7,10 @@ export const Footer = () => (
 	<footer className="bg-success text-center text-white ">
  
   <div className="container p-4 "/>
-  <p> T-enseño es una organizacion sin fines de lucro, creada por estudiantes de 4GeeksAcademy
+  <span>📍 AV.Andres Bello, Santiago </span>
+  <p> COPYRIGHT © 2023. DERECHOS RESERVADOS . Sitio desarrollado por estudiantes de 4GeeksAcademy
   </p>
+  <p>+56255666555</p>
 
    
     <section className="mb-4"/>
@@ -25,6 +27,11 @@ export const Footer = () => (
     
       <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
         ><i className="fab fa-instagram"></i
+      ></a>
+       
+       
+      <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
+        ><i className="fab fa-whatsapp"></i
       ></a>
 	  </footer>
 	  </div>
