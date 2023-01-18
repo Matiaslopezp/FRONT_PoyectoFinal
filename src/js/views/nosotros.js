@@ -16,6 +16,31 @@ export const Nosotros = () => {
                 </p>
             </div>
 
+            <div className="row">
+                <div className="col-4 border border-3 rounded">
+                    <h4 className="text-center">MISIÓN</h4>
+                    <p> La misión de este sitio web en entregar contenido relacionado al aprendizaje de la Lengua de Señas Chilena
+                        con la finalidad de generar interés por aprender a comunicarse a través de los gestos con personas sordas y con cualquier persona 
+                        que requiera de este recurso de comunicación.</p> 
+                </div>
+
+                <div className="col-4 border border-3 rounded">
+                    <h4 className="text-center">VISIÓN</h4>
+                    <p> Convertirnos en un sitio web de referencia en la inclusión de personas con sordera y/o hipoacusia a través de la difusión 
+                        del contenido referente a la lengua de señas que se puede encontrar en la internet. </p> 
+                </div>
+
+                <div className="col-4 border border-3 rounded">
+                    <h4 className="text-center">VALORES </h4>
+                    <p className="text-center"> Empatía  <br></br>
+                        Respeto <br></br>
+                        Compromiso <br></br>
+                        inclusión <br></br>
+                        Diversidad</p> 
+                </div>
+            </div>
+           
+
             
 
 
