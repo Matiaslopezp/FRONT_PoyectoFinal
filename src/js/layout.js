@@ -12,6 +12,7 @@ import { Mazapan } from "./views/mazapan";
 import { Aplicacion } from "./views/aplicacion";
 
 
+
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -39,6 +40,7 @@ const Layout = () => {
 						<Route path="/canciones" element={<Canciones />} />
 						<Route path="/capsulas" element={<Capsulas />} />
 						<Route path="/aplicacion" element={<Aplicacion />} />
+						
 
 
 
