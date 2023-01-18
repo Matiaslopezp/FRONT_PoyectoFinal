@@ -3,8 +3,6 @@ import "../../styles/inicio.css"
 
 export const Carousel_inicio = () => {
   return (<div>
-
-    <h1>está bueno</h1>
     <div id="carouselExampleSlidesOnly" className="carousel slide h-15" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
