@@ -15,16 +15,28 @@ body{
 }
 
 
-.titulo{
-    background-color: rgba(140,208,227,255);
+.header-1{
+    background-color: #8cd0e3;
     margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 1%;
+    text-align:center;
+    width: 100%;
+   
+}
+
+.header-2{
+    background: linear-gradient(to right,#fb637e 0,#5e549b 100%);
+    margin-top: 0px;
     margin-bottom: 25px;
     padding: 1%;
     text-align:center;
     width: 100%;
-    color: white;
 }
 
+.header-2 img {
+    height: 50px;
+}
 
 .titulo img {
     height: 50px;
@@ -67,7 +79,7 @@ body{
 }
 
 .texto{
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/983/95/663/purple-pastel-blur-gradation-wallpaper-preview.jpg);
+    background-image: url(https://res.cloudinary.com/dws1jugpv/image/upload/v1674145607/QWE/FONDO.CARTA_1_fmj6wf.png);
     width: 1010px;
     height: 450px;
     float:left;

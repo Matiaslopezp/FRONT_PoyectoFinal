@@ -6,8 +6,11 @@ import "../../styles/inicio.css"
 export const Inicio = () => {
     return (
         <div className="todo">
-            <div className="titulo">
-                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674055906/QWE/logo_tense%C3%B1o-removebg-preview_uizjty.png" />
+            <div className="header-1">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+            </div>
+            <div className="header-2">
+             <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
             </div>
 
             <div className="carta1 ">
