@@ -19,24 +19,31 @@ export const Nosotros = () => {
             <div className="row">
                 <div className="col-4 border border-3 rounded">
                     <h4 className="text-center">MISIÓN</h4>
-                    <p> La misión de este sitio web en entregar contenido relacionado al aprendizaje de la Lengua de Señas Chilena
-                        con la finalidad de generar interés por aprender a comunicarse a través de los gestos con personas sordas y con cualquier persona 
-                        que requiera de este recurso de comunicación.</p> 
+                    <p> La misión de este sitio web en entregar contenido audiovisual de alta calidad, relacionado al aprendizaje de la Lengua de Señas Chilena
+                        con el fin de generar gran interés por aprender este tipo de lengua a todas las personas que quieran comunicarse a través de los gestos,
+                        ya sea con personas sordas o con cualquier persona que requiera de este recurso de comunicación.
+                    </p> 
                 </div>
 
                 <div className="col-4 border border-3 rounded">
                     <h4 className="text-center">VISIÓN</h4>
                     <p> Convertirnos en un sitio web de referencia en la inclusión de personas con sordera y/o hipoacusia a través de la difusión 
-                        del contenido referente a la lengua de señas que se puede encontrar en la internet. </p> 
+                        del contenido referente a la lengua de señas que se puede encontrar en la internet. Contribuyendo a una sociedad más inclusiva
+                        y consciente de la diversidad lingüística y cultural.
+                    </p> 
                 </div>
 
                 <div className="col-4 border border-3 rounded">
                     <h4 className="text-center">VALORES </h4>
-                    <p className="text-center"> Empatía  <br></br>
-                        Respeto <br></br>
-                        Compromiso <br></br>
-                        inclusión <br></br>
-                        Diversidad</p> 
+                    <p className="text-start"> 
+                        <ul>
+                        <li><em>Inclusión:</em> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</li>
+                        <li><em>Accesibilidad:</em> asegurando que el contenido está disponible y fácil de acceder para todos los usuarios. </li>
+                        <li><em>Calidad:</em> proporcionando material educativo de alta calidad, actualizado y preciso para el aprendizaje y la comprensión de la lengua de señas chilena.</li>
+                        <li><em>Respeto:</em> promoviendo el respeto y la valoración de la diversidad lingüística y cultural, fomentando una sociedad más consciente e inclusiva.</li>
+                        <li><em>Responsabilidad:</em> actuando con responsabilidad social y compromiso con la comunidad sorda, proporcionando información y recursos para apoyar su inclusión y comunicación efectiva.</li>
+                        </ul>
+                    </p> 
                 </div>
             </div>
            
