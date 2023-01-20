@@ -33,10 +33,15 @@ export const Donaciones = () => (
         <li className="list-group-item">Nombre : Te enseño señas .LTA</li>
       </ul>
     </div>
+    <div className="foto ">
+      <img src="https://todosdecidimos.org/wp-content/uploads/2022/11/donaciones-deducibles-de-impuestos.png" width="300px" />
+<p>Todas las donaciones están protegidas por PAYPAL.</p>
+
+    </div>
     
-    <div className="Pago d-flex">
+    <div className="Pago d-flex pb-4 position-absolute-bottom">
       <div className=" container col-4" >
-      <p>Todas las donaciones están protegidas por PAYPAL.</p>
+      
       <input
         type="image"
         src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif"
