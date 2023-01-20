@@ -20,9 +20,9 @@ export const Donaciones = () => (
 Ya sea donando, difundiendo o participando, cada acción cuenta.</p>
  
 </div>
-<div className="Datos">
+<div className="Datos col-4">
 
-<ul className="list-group ">
+<ul className=" container list-group ms-5 ">
   <li className="list-group-item disabled" aria-disabled="true">Datos bancarios</li>
   <li className="list-group-item">Banco : Banco de Chile</li>
   <li className="list-group-item">Cta. corriente : 99008837434422</li>
@@ -32,6 +32,9 @@ Ya sea donando, difundiendo o participando, cada acción cuenta.</p>
 </ul>
 </div>
 
+<div className= " container ">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea." border="0"></input>
+</div>
 
 
 
