@@ -22,7 +22,7 @@ export const Nosotros = () => {
 
  
 
- <div id="carouselExampleDark" class="carousel carousel-dark slide">
+ <div id="carouselExampleDark" class="carousel carousel-dark slide ">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -30,8 +30,8 @@ export const Nosotros = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://images.unsplash.com/photo-1622905810769-1b42d41f92ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" class="d-block w-90 h-90" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <img src="https://images.unsplash.com/photo-1614036417651-efe5912149d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1819&q=80" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block ">
         <h5>Nuestra Misíon</h5>
         <p>La misión de este sitio web en entregar contenido audiovisual de alta calidad, relacionado al aprendizaje de la Lengua de Señas Chilena
              con el fin de generar gran interés por aprender este tipo de lengua a todas las personas que quieran comunicarse a través de los gestos,
@@ -39,7 +39,7 @@ export const Nosotros = () => {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src=" https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="d-block w-100" alt="..."/>
+      <img src=" https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2030&q=80" class="d-block w-80" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Visión</h5>
         <p>Convertirnos en un sitio web de referencia en la inclusión de personas con sordera y/o hipoacusia a través de la difusión 
@@ -48,7 +48,7 @@ export const Nosotros = () => {
       </div>
     </div>
     <div class="carousel-item text-align-center">
-      <img src="https://images.unsplash.com/photo-1614036417651-efe5912149d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1819&q=80" class="d-block w-100" alt="..."/>
+      <img src="" class="d-block w-80" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
