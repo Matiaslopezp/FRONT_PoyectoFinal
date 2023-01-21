@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import {Traduccion_carta} from "../component/traduccionCarta"
+import {TraduccionC} from "../component/traduccionCarta.js"
 
 import "../../styles/traductor.css"
 
@@ -18,12 +18,14 @@ export const Traductor = () => {
 
                 <div className="portada">
                     <div>
-                        <Traduccion_carta/>
+                        <h1>Seleccione una opción: !!!!</h1>
+                        <TraduccionC imagen=""/>
+                        
                     </div>
                 </div>
             </div>
             </div>
-            )
-}
+            );
+};
 
-export default Traductor;
+export default {Traductor};
