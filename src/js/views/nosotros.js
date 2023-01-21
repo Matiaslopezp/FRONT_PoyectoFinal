@@ -20,7 +20,7 @@ export const Nosotros = () => {
         </div>
  </div>
 
- 
+ <div className="container col-8 mt-4">
 
  <div id="carouselExampleDark" class="carousel carousel-dark slide ">
   <div class="carousel-indicators">
@@ -30,7 +30,7 @@ export const Nosotros = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://images.unsplash.com/photo-1614036417651-efe5912149d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1819&q=80" class="d-block w-100" alt="..."/>
+      <img src="https://images.unsplash.com/photo-1596920566829-d73adfc0fba6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block ">
         <h5>Nuestra Misíon</h5>
         <p>La misión de este sitio web en entregar contenido audiovisual de alta calidad, relacionado al aprendizaje de la Lengua de Señas Chilena
@@ -39,21 +39,17 @@ export const Nosotros = () => {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src=" https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2030&q=80" class="d-block w-80" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Visión</h5>
+      <img src=" https://images.unsplash.com/photo-1534614772-79994e5dac9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>Nuestra Visión</h5>
         <p>Convertirnos en un sitio web de referencia en la inclusión de personas con sordera y/o hipoacusia a través de la difusión 
             del contenido referente a la lengua de señas que se puede encontrar en la internet. Contribuyendo a una sociedad más inclusiva
             y consciente de la diversidad lingüística y cultural.</p>
       </div>
     </div>
-    <div class="carousel-item text-align-center">
-      <img src="" class="d-block w-80" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
+    
+      
+   
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -67,57 +63,17 @@ export const Nosotros = () => {
 
 
 
+</div>
 
 
 
 
 
 
+<div className="Nuestros_valores">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div className="col-4 border border-3 rounded">
-                    <h4 className="text-center">VALORES </h4>
+                <div className="col-11 border border-3 rounded m-5">
+                    <h4 className="text-center">Nuestros Valores </h4>
                     <p className="text-start"> 
                         <ul>
                         <li><em>Inclusión:</em> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</li>
@@ -130,7 +86,7 @@ export const Nosotros = () => {
                 </div>
             </div>
            
-
+</div>
             
 
 
