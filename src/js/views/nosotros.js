@@ -66,23 +66,56 @@ export const Nosotros = () => {
 </div>
 
 
+<h2 className=" container text-center pt-4 m-4 ">Nuestros Valores </h2>
+
+
+           
+<div className="inclusion">
+    <div className="row-1 m-4">
+    <div className="col-2 text-center ">
+    <img src="https://www.pngarts.com/files/7/Inclusion-PNG-Transparent-Image.png" width={"100px"} />
+    <h5>Inclusión</h5>
+     <p> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
+
+</div>
+    <div className=" row-1 m-4">
+    <div className="col-2 text-center ">
+    <img src="https://cdn-icons-png.flaticon.com/512/2620/2620620.png" width={"100px"} />
+    <h5>Accesibilidad</h5>
+     <p> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
+</div>
+    
+    <div className="m-4">
+    <div className="col-2 text-center ">
+    <img src="https://cdn-icons-png.flaticon.com/512/3937/3937040.png" width={"100px"} />
+    <h5>Calidad</h5>
+     <p> Asegurando que el contenido este disponible y fácil de acceder para todos los usuarios.</p>
+
+</div>
+</div>
+<div className="m-4">
+    <div className="col-2 text-center ">
+    <img src="https://cdn-icons-png.flaticon.com/512/1189/1189132.png" width={"100px"} />
+    <h5>Respeto</h5>
+     <p> promoviendo el respeto y la valoración de la diversidad lingüística y cultural, fomentando una sociedad más consciente e inclusiva.</p>
+</div>
+</div>
+<div className="m-4">
+    <div className="col-2 text-center ">
+    <img src="https://cdn-icons-png.flaticon.com/512/3361/3361925.png" width={"100px"} />
+    <h5>Responsabilidad</h5>
+     <p> ctuando con responsabilidad social y compromiso con la comunidad sorda, proporcionando información y recursos para apoyar su inclusión y comunicación efectiva.</p>
+</div>
+</div>
 
 
 
 
-<div className="Nuestros_valores">
 
-                <div className="col-11 border border-3 rounded m-5">
-                    <h4 className="text-center">Nuestros Valores </h4>
-                    <p className="text-start"> 
-                        <ul>
-                        <li><em>Inclusión:</em> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</li>
-                        <li><em>Accesibilidad:</em> asegurando que el contenido está disponible y fácil de acceder para todos los usuarios. </li>
-                        <li><em>Calidad:</em> proporcionando material educativo de alta calidad, actualizado y preciso para el aprendizaje y la comprensión de la lengua de señas chilena.</li>
-                        <li><em>Respeto:</em> promoviendo el respeto y la valoración de la diversidad lingüística y cultural, fomentando una sociedad más consciente e inclusiva.</li>
-                        <li><em>Responsabilidad:</em> actuando con responsabilidad social y compromiso con la comunidad sorda, proporcionando información y recursos para apoyar su inclusión y comunicación efectiva.</li>
-                        </ul>
-                    </p> 
+
+                
+                    
+                 
                 </div>
             </div>
            
@@ -91,7 +124,7 @@ export const Nosotros = () => {
 
 
 
-        
+        </div>
         </>
     )
 }
