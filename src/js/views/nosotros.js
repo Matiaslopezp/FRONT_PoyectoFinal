@@ -68,43 +68,43 @@ export const Nosotros = () => {
       <h2 className=" container text-center pt-4 m-4 ">Nuestros Valores </h2>
 
 
-      <div className="d-flex container fluid justify-content">
+      <div className="d-flex container-fluid">
 
 
 
-        <div className="col-2 text-center ">
+        <div className="col-2 text-center m-4">
           <img src="https://www.pngarts.com/files/7/Inclusion-PNG-Transparent-Image.png" width={"100px"} />
           <h5>Inclusión</h5>
-          <p> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
+          <p> Promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
         </div>
 
 
 
-        <div className="col-2 text-center ">
+        <div className="col-2 text-center m-4 ">
           <img src="https://cdn-icons-png.flaticon.com/512/2620/2620620.png" width={"100px"} />
           <h5>Accesibilidad</h5>
-          <p> promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
+          <p> Promover la inclusión y la igualdad de oportunidades para las personas sordas y con discapacidad auditiva.</p>
         </div>
 
 
-        <div className="col-2 text-center ">
+        <div className="col-2 text-center m-4">
           <img src="https://cdn-icons-png.flaticon.com/512/3937/3937040.png" width={"100px"} />
           <h5>Calidad</h5>
           <p> Asegurando que el contenido este disponible y fácil de acceder para todos los usuarios.</p>
         </div>
 
 
-        <div className="col-2 text-center ">
+        <div className="col-2 text-center m-4 ">
           <img src="https://cdn-icons-png.flaticon.com/512/1189/1189132.png" width={"100px"} />
           <h5>Respeto</h5>
-          <p> promoviendo el respeto y la valoración de la diversidad lingüística y cultural, fomentando una sociedad más consciente e inclusiva.</p>
+          <p> Promoviendo el respeto y la valoración de la diversidad lingüística y cultural, fomentando una sociedad más consciente e inclusiva.</p>
         </div>
 
 
-        <div className="col-2 text-center ">
+        <div className="col-2 text-center m-4">
           <img src="https://cdn-icons-png.flaticon.com/512/3361/3361925.png" width={"100px"} />
           <h5>Responsabilidad</h5>
-          <p> ctuando con responsabilidad social y compromiso con la comunidad sorda, proporcionando información y recursos para apoyar su inclusión y comunicación efectiva.</p>
+          <p> Actuando con responsabilidad social y compromiso con la comunidad sorda, proporcionando información y recursos para apoyar su inclusión y comunicación efectiva.</p>
         </div>
         </div>
 
