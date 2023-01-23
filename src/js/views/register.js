@@ -1,39 +1,59 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { Context } from "../store/appContext";
 
 import "../../styles/register.css";
 
 export const Register = () => {
-    const { store, actions } = useContext(Context);
+	let navigate = useNavigate();
 	return (
-		<div className="container row justify-content-between">
-			<div className="col-4">	
-				<form>
-					<div class="mb-3">
-						<label for="exampleInputEmail1" class="form-label">Email</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-					</div>
-					<div class="mb-3">
-						<label for="exampleInputPassword1" class="form-label">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1"/>
-					</div>
-					<div class="mb-3">
-						<label for="exampleInputPassword1" class="form-label">Repeat Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1"/>
-					</div>
-					<div class="mb-3 form-check">
-						<Link to="/forgotpassword">
-							<span className="navbar-brand mb-0 h1">Forgot password</span>
-						</Link>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
+		<div className="container">
+			<div className="todo">
+				<div className="header-1">
+					<img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+				</div>
+			
 			</div>
-			<div className="col-4">
-				<img src="https://i.pinimg.com/736x/83/3b/ff/833bffeac14ec8e2664718342965500f.jpg"/>
-			</div>	
+
+			<div className="container-sm row justify-content-between ">
+
+				<div className="ml-auto container-sm">
+					<div className="panel-header col-4">
+						<h2 className="panel-heder">
+						HEY! OYEEEE!
+						</h2>
+						<p>
+						Si aun no te registras presiona y completa el formulario
+						</p>
+					</div>
+					<Link to="/registerform">
+						<button className="btn btn-primary">Register</button>
+					</Link>
+				</div>
+
+
+				<div className="col-4 position-absolute end-0">	
+					<div className="panel-header col-4">
+						<h2 className="panel-heder">
+						HEY! OYEEEE!
+						</h2>
+						<p>
+						Si ya estas registrado presiona e ingresa
+						</p>
+					</div>
+						
+					<div className="ml-auto">
+						
+						<Link to="/login">
+							<button type="submit" className="btn btn-primary">Login</button>
+						</Link>
+						</div>
+						
+				</div>
+			</div>
 		</div>
-	);
-};
+			
+		);
+	};
