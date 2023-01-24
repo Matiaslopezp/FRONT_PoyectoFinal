@@ -29,10 +29,10 @@ export const Traductor = () => {
                         </div>
                 
                         <div className="row row-cols-3 justify-content-center container-fluid"> 
-                        <TraduccionC imagen="https://metodosparaligar.com/wp-content/uploads/2015/04/conocer-gente2.jpg" boton="Entrar" titulo="Presentación"/>
-                        <TraduccionC imagen="https://previews.123rf.com/images/torwai/torwai1904/torwai190400296/120403009-la-mujer-est%C3%A1-en-el-supermercado-comprando-comida-.jpg" boton="Entrar" titulo="De compras"/>
+                        <TraduccionC imagen="https://metodosparaligar.com/wp-content/uploads/2015/04/conocer-gente2.jpg" boton="Entrar" titulo="Presentación" rutax="/saludos"/>
+                        <TraduccionC imagen="https://previews.123rf.com/images/torwai/torwai1904/torwai190400296/120403009-la-mujer-est%C3%A1-en-el-supermercado-comprando-comida-.jpg" boton="Entrar" titulo="De compras" rutax="/compras"/>
                         <TraduccionC imagen="https://educacion30.b-cdn.net/wp-content/uploads/2021/07/fiestas-populares-978x652.png.webp" boton="Entrar" titulo="De fiesta"/>
-                        <TraduccionC imagen="https://img.freepik.com/foto-gratis/mujeres-turistas-mano-tienen-feliz-mapa-viaje_1150-7411.jpg?w=1380&t=st=1674492503~exp=1674493103~hmac=fccf1ffc2d740bb73ee51f5b025114969b71aa44948e9771dc09cae05a8a0849" boton="Entrar" titulo="De viaje"/>
+                        <TraduccionC imagen="https://img.freepik.com/foto-gratis/mujeres-turistas-mano-tienen-feliz-mapa-viaje_1150-7411.jpg?w=1380&t=st=1674492503~exp=1674493103~hmac=fccf1ffc2d740bb73ee51f5b025114969b71aa44948e9771dc09cae05a8a0849" boton="Entrar" titulo="De viaje" rutax="/viaje"/>
                         </div>
 
                         <div className="row row-cols-3 justify-content-center container-fluid"> 

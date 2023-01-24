@@ -1,9 +1,17 @@
 import React from "react";
 import {Link} from "react-router-dom"
 
+const Css={
+"width":"18rem",
+"color":"green",
+"borderWidth":"5px",
+"borderColor":"#8cd0e3",
+"backgroundColor":"none"
+}
+
 export const Cartas_senas = (props) => {
   return ( 
-    <div className="card m-3" style={{"width": "18rem"}}>
+    <div className="card m-3 p-3" style={Css}>
     <img src={props.imagen} className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">{props.titulo}</h5>

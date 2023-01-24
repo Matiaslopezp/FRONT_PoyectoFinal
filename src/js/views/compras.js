@@ -3,7 +3,7 @@ import {Cartas_senas} from "../component/carta_senas.js"
 
 
 
-export const Restaurant = () => {
+export const Compras = () => {
     return (
         <div className="todo">
             <div className="header-1">
@@ -19,7 +19,7 @@ export const Restaurant = () => {
 
                 <Cartas_senas titulo="Menu" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600508/QWE/Restaurant_menu_efpava.jpg" />
                 <Cartas_senas titulo="Mozo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600618/QWE/Restaurant_mozo_yycc0g.jpg" />
-                <Cartas_senas titulo="Baño" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674603233/QWE/Viaje_bano_rzp1tc.jpg" />
+                <Cartas_senas titulo="Museo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674601569/QWE/Viaje_museo_aiplkp.jpg" />
             </div>
 
             <div className="d-flex justify-content-center container-fluid my-5">
@@ -28,4 +28,4 @@ export const Restaurant = () => {
              </div>
 </div>)}
 
-export default {Restaurant};
+export default {Compras};

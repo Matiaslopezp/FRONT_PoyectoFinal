@@ -28,10 +28,27 @@ body{
 .header-2{
     background: linear-gradient(to right,#fb637e 0,#5e549b 100%);
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     padding: 1%;
     text-align:center;
     width: 100%;
+}
+
+.header-3{
+    background: linear-gradient(to right,#f8d8c2 0,#e7bf0a 100%);
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    height: 40px;
+    padding-top: 4px;
+    text-align:center;
+    width: 100%;
+}
+
+.header-3 img {
+
+    height: 30px;
+
 }
 
 .header-2 img {
