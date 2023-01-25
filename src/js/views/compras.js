@@ -17,7 +17,7 @@ export const Compras = () => {
             </div>
             <div className="d-flex justify-content-center container-fluid my-5">
 
-                <Cartas_senas titulo="Menu" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600508/QWE/Restaurant_menu_efpava.jpg" />
+                <Cartas_senas titulo="Comprar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674604999/QWE/Compras_comprar_br4vus.jpg" />
                 <Cartas_senas titulo="Mozo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600618/QWE/Restaurant_mozo_yycc0g.jpg" />
                 <Cartas_senas titulo="Museo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674601569/QWE/Viaje_museo_aiplkp.jpg" />
             </div>
