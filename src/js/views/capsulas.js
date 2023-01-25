@@ -4,14 +4,13 @@ export const Capsulas = ()=> {
     return (
         <div className="container">
             <div className="row">
-                <h1> Cápsulas educativas</h1>
-                <h4>Durante el año 2020, en el período de cuarentena debido a la pandemia del covid-19, muchas instituciones inciaron talleres gratuitos y en línea 
-                    para todas las personas que en ese momento quisieran cultivar sus conocimientos en diversas áreas; es así que la Ilustre Municipalidad de San Miguel, de la 
-                    ciudad de Santiago, realizó 6 cápsulas educativas con la finalidad de ampliar y difundir la Lengua de Señas Chilena. Aprenderás a saludar, a deletrear tu 
-                    nombre, las ciudades, los números, los verbos, frutas, verduras, colores, y un largo etc!
+                <h4>En los siguientes videos podrás ampliar tu vocabulario en LSCh. Aprenderás a saludar, a deletrear tu 
+                    nombre, los números, los verbos, frutas, verduras, y un largo etc!
                 </h4>
-                <h5>Te invitamos a aprender junto al profesor Jonathan Rojas, ampliando tu vocabulario y manejo de señas utilizadas por convención en nuestro país.
+                <h5>Te invitamos a aprender junto al profesor Jonathan Rojas.
                 </h5>
+                <h7>*Material creado por la Ilustre Municipalidad de San Miguel, Santiago.</h7>
+
             </div>
 
             <div className="row">
