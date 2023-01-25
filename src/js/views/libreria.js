@@ -17,16 +17,15 @@ export const Libreria = () => {
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674147077/QWE/libreria_digital-removebg-preview_btfzl8.png" />
             </div>
 
-            <div className="container ">
-                <div>
-                    <h1>Librería digital</h1>
+            <div className="container">
+                <div className="m-5">
                     <h2>Aquí encontrarás material audiovisual complementario, en donde podrás explorar diferentes formas de aprender
                         la Lengua de Señas Chilena:
                     </h2>
                 </div>
 
                 <div className="row">
-                    <div className="col-6 d-flex">
+                    <div className="col-6 d-flex p-3">
                         <CardHorizontal titulo="Mazapán en Lengua de Señas"
                             img="https://files.wapa.pe/Wapa/2019/02/17/se-as8-1550427868.jpg"
                             descripcion="Las clásicas canciones del grupo infantil Mazapán en lengua de señas chilena para que los más
