@@ -20,41 +20,44 @@ export const Donaciones = () => (
         </p>
       </div>
     </div>
-    
-    <div className="  col-2 row-1 d-flex justify-content m-2">
-      <ul className="container list-group m-5 pt-5">
-        <li className="list-group-item disabled" aria-disabled="true">
-          Datos Bancarios
-        </li>
-        <li className="list-group-item">Banco : Banco de Chile</li>
-        <li className="list-group-item">Cta. corriente : 99008837434422</li>
-        <li className="list-group-item">Email: t.enseñoseñas@gmail.com</li>
-        <li className="list-group-item">Rut : 88.937.423.5</li>
-        <li className="list-group-item">Nombre : Te enseño señas .LTA</li>
-      </ul>
-    
-      <img src="https://todosdecidimos.org/wp-content/uploads/2022/11/donaciones-deducibles-de-impuestos.png" class="rounded-circle" width={"200px"} alt="..."></img> 
-      
 
+
+    <div className=" col-auto text-center m-5">
+      <div>
+        <ul className="container list-group m-5 pt-5">
+          <li className="list-group-item disabled" aria-disabled="true">
+            Datos Bancarios
+          </li>
+          <li className="list-group-item">Banco : Banco de Chile</li>
+          <li className="list-group-item">Cta. corriente : 99008837434422</li>
+          <li className="list-group-item">Email: t.enseñoseñas@gmail.com</li>
+          <li className="list-group-item">Rut : 88.937.423.5</li>
+          <li className="list-group-item">Nombre : Te enseño señas .LTA</li>
+        </ul>
+      </div>
+      <div className="align-self-right">
+        <img src="https://todosdecidimos.org/wp-content/uploads/2022/11/donaciones-deducibles-de-impuestos.png" className="rounded-circle" width={"300"} alt="..."></img>
+
+      </div>
     </div >
     <div className="text-center m-5">
-    <p>Todas las donaciones están protegidas por PAYPAL.</p>
-     <input
+      <p>Todas las donaciones están protegidas por PAYPAL.</p>
+      <input
         type="image"
         src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif"
         name="submit"
         alt="PayPal, la forma más segura y rápida de pagar en línea."
         border="0"
       ></input>
-      </div>
-    
-   
-    
-      
-     
-      
-      
-    
-    
+    </div>
+
+
+
+
+
+
+
+
+
   </>
 );
