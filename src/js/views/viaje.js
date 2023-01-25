@@ -24,7 +24,7 @@ export const Viaje = () => {
 
             <div className="d-flex justify-content-center container-fluid my-5">
             <Cartas_senas titulo="Pasaporte" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674602598/QWE/Viaje_pasaporte_ubaq3o.jpg" />
-            <Cartas_senas titulo="Pasear" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674602717/QWE/Viaje_pasear_jq3ztu.jpg" />.
+            <Cartas_senas titulo="Cajero" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687216/QWE/Turismo_cajero_sqgoex.jpg" />.
             <Cartas_senas titulo="Metro" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674603022/QWE/Viaje_metro_uwanne.jpg" />
              </div>
         </div>)

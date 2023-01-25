@@ -23,8 +23,8 @@ export const Traductor = () => {
                         
                         <div className="row row-cols-3 d-flex justify-content-center container-fluid" > 
                         <TraduccionC imagen="https://watv.org/wp-content/uploads/2021/01/opportunities.jpg" boton="Entrar" titulo="Restaurant" rutax="/restaurant"/>
-                        <TraduccionC imagen="https://fotografias.lasexta.com/clipping/cmsimages02/2022/07/14/60D6D0AF-0932-4A0F-B62E-ED64C900E941/como-activar-alertas-emergencia-inalambricas-movil-android_98.jpg?crop=1300,731,x0,y10&width=1900&height=1069&optimize=high&format=webply" boton="Entrar" titulo="Emergencia"/>
-                        <TraduccionC imagen="https://estaticos-cdn.prensaiberica.es/clip/5b6f17e6-ef58-4de3-a3c0-58655fd48d45_16-9-aspect-ratio_default_0.jpg" boton="Entrar" titulo="En la casa"/>
+                        <TraduccionC imagen="https://fotografias.lasexta.com/clipping/cmsimages02/2022/07/14/60D6D0AF-0932-4A0F-B62E-ED64C900E941/como-activar-alertas-emergencia-inalambricas-movil-android_98.jpg?crop=1300,731,x0,y10&width=1900&height=1069&optimize=high&format=webply" boton="Entrar" titulo="Emergencia" rutax="/emergencia"/>
+                        <TraduccionC imagen="https://estaticos-cdn.prensaiberica.es/clip/5b6f17e6-ef58-4de3-a3c0-58655fd48d45_16-9-aspect-ratio_default_0.jpg" boton="Entrar" titulo="En la casa" rutax="/casa"/>
                         </div>
                 
                         <div className="row row-cols-3 justify-content-center container-fluid"> 
@@ -34,9 +34,9 @@ export const Traductor = () => {
                         </div>
 
                         <div className="row row-cols-3 justify-content-center container-fluid"> 
-                        <TraduccionC imagen="https://images.hola.com/imagenes/estar-bien/20190527142628/descubre-si-eres-persona-reflexiva-cs/0-683-360/xxx-t.jpg?tx=w_1200" boton="Entrar" titulo="Otros"/>
-                        <TraduccionC imagen="https://media.licdn.com/dms/image/D4D12AQHza4Lriwldug/article-cover_image-shrink_720_1280/0/1664396275461?e=2147483647&v=beta&t=yZDW_0FPfpV5AoIfdKgeobXkacLwFdBP3IryUWaMxtg" boton="Entrar" titulo="En la calle"/>
-                        <TraduccionC imagen="https://imagenes.elpais.com/resizer/7EHLyfJUijljrNu-2apvQoTjD-8=/980x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/M6RLT2HERKTKLQ44BZW2P3B23A.jpg" boton="Entrar" titulo="Trabajo"/>
+                        <TraduccionC imagen="https://images.hola.com/imagenes/estar-bien/20190527142628/descubre-si-eres-persona-reflexiva-cs/0-683-360/xxx-t.jpg?tx=w_1200" boton="Entrar" titulo="Otros" rutax="/otros"/>
+                        <TraduccionC imagen="https://media.licdn.com/dms/image/D4D12AQHza4Lriwldug/article-cover_image-shrink_720_1280/0/1664396275461?e=2147483647&v=beta&t=yZDW_0FPfpV5AoIfdKgeobXkacLwFdBP3IryUWaMxtg" boton="Entrar" titulo="En la calle" rutax="/calle"/>
+                        <TraduccionC imagen="https://imagenes.elpais.com/resizer/7EHLyfJUijljrNu-2apvQoTjD-8=/980x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/M6RLT2HERKTKLQ44BZW2P3B23A.jpg" boton="Entrar" titulo="Trabajo" rutax="/trabajo"/>
                         </div>
 
                     </div>

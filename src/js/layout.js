@@ -8,6 +8,11 @@ import {Restaurant} from "./views/restaurant.js"
 import {Saludos} from "./views/saludos"
 import {Viaje} from "./views/viaje"
 import {Compras} from "./views/compras"
+import {Emergencia} from "./views/emergencia"
+import {Casa} from "./views/casa"
+import {Otros} from "./views/otros"
+import {Calle} from "./views/calle"
+import {Trabajo} from "./views/trabajo"
 
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
@@ -31,7 +36,12 @@ const Layout = () => {
 						<Route path="/" element={<Home />} />
 						<Route path="/traductor" element={<Traductor/>} />
 						<Route path="/compras" element={<Compras/>} />
+						<Route path="/emergencia" element={<Emergencia/>} />
+						<Route path="/casa" element={<Casa/>} />
+						<Route path="/otros" element={<Otros/>} />
 						<Route path="/viaje" element={<Viaje/>} />
+						<Route path="/calle" element={<Calle/>} />
+						<Route path="/trabajo" element={<Trabajo/>} />
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/restaurant" element={<Restaurant />} />
 						<Route path="/saludos" element={<Saludos/>} />

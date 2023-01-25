@@ -23,9 +23,9 @@ export const Restaurant = () => {
             </div>
 
             <div className="d-flex justify-content-center container-fluid my-5">
-            <Cartas_senas titulo="Chao" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674598504/QWE/Saludar_chao_l2nk5k.jpg" />
-            <Cartas_senas titulo="¿Cómo estas?" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674598504/QWE/Saludar_como.estas_cgbbch.jpg" />
-            <Cartas_lsch/>
+            <Cartas_senas titulo="Hambre" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687036/QWE/Restaurant_hambre_jmatrs.jpg" />
+            <Cartas_senas titulo="Mesa" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687090/QWE/Restaurant_mesa_dfhjwc.jpg" />
+            <Cartas_senas titulo="Paga" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687274/QWE/Reastaurant_pagar_xvufxo.jpg" />
              </div>
 </div>)}
 
