@@ -23,6 +23,7 @@ import {Calle} from "./views/calle"
 import {Trabajo} from "./views/trabajo"
 
 
+import { Nosotros } from "./views/nosotros";
 
 import injectContext from "./store/appContext";
 
@@ -32,6 +33,7 @@ import { Donaciones } from "./views/donaciones";
 
 
 import { TraduccionC } from "./component/traduccionCarta";
+
 
 
 
@@ -72,6 +74,7 @@ const Layout = () => {
 
 
 
+						<Route path="/nosotros" element={<Nosotros />} />
 
 						<Route path="*" element={<h1>Not found!</h1>} />
 					</Routes>
