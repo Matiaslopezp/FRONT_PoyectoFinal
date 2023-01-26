@@ -28,6 +28,8 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Donaciones } from "./views/donaciones";
+
 
 import { TraduccionC } from "./component/traduccionCarta";
 
@@ -45,7 +47,7 @@ const Layout = () => {
 				<ScrollToTop>
 					<Navbar />
 					<Routes>
-						<Route path="/" element={<Home />} />
+						<Route path="/donaciones" element={< Donaciones />} />
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/single/:theid" element={<Single />} />
 
