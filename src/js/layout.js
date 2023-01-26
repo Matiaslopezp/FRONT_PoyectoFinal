@@ -10,7 +10,6 @@ import { Canciones } from "./views/canciones";
 import { Capsulas } from "./views/capsulas";
 import { Mazapan } from "./views/mazapan";
 import { Aplicacion } from "./views/aplicacion";
-
 import {Traductor} from "./views/traductor"
 import {Restaurant} from "./views/restaurant.js"
 import {Saludos} from "./views/saludos"
