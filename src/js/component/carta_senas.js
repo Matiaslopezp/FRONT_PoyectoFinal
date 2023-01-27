@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useContext} from "react";
+import { Context } from "../store/appContext";
 import {Link} from "react-router-dom"
 
 const Css={
@@ -10,17 +11,16 @@ const Css={
 }
 
 export const Cartas_senas = (props) => {
+  const {actions}= useContext (Context)
   return ( 
     <div className="card m-3 p-3" style={Css}>
     <img src={props.imagen} className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">{props.titulo}</h5>
       <p className="card-text">{props.parrafo}</p>
-<<<<<<< HEAD
-      <Link to={props.ruta}><button className="btn btn-primary">{props.boton}</button></Link>
-=======
-      <Link to={props.ruta}><button className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x">{props.boton}</button></Link>
->>>>>>> origin/feature/traductor
+      <Link to={props.ruta}><button className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x" onClick={()=>{actions.addFav(titulo)
+        set.Store({favoritos:[nombre]})
+      }} >{props.boton}</button></Link>
       
     </div>
   </div>

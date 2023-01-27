@@ -21,18 +21,6 @@ import { Canciones } from "./views/canciones";
 import { Capsulas } from "./views/capsulas";
 import { Mazapan } from "./views/mazapan";
 import { Aplicacion } from "./views/aplicacion";
-import {Traductor} from "./views/traductor"
-import {Restaurant} from "./views/restaurant.js"
-import {Saludos} from "./views/saludos"
-import {Viaje} from "./views/viaje"
-import {Compras} from "./views/compras"
-import {Emergencia} from "./views/emergencia"
-import {Casa} from "./views/casa"
-import {Otros} from "./views/otros"
-import {Calle} from "./views/calle"
-import {Trabajo} from "./views/trabajo"
-
-
 import { Nosotros } from "./views/nosotros";
 
 import injectContext from "./store/appContext";
