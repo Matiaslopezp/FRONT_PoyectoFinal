@@ -3,7 +3,7 @@ import "../../styles/footer.css"
 
 
 export const Footer = () => (
-	<div className="footer-fixed-bottom">
+	<div className="fixed-bottom">
 	<footer className="bg-success text-center text-white ">
  
   <div className="container p-4 "/>

@@ -5,9 +5,10 @@ import "../../styles/navbar.css"
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
-      <div className="cuerpo" style={{ height: "90px" }}>
-        <div className="d-flex justify-content-center container-fluid " >
+    <div className="fixed-top">
+    <nav className="navbar navbar-expand-lg " >
+      <div className="cuerpo" style={{ height: "100%" }}>
+        <div className="d-flex justify-content-center container-fluid" style={{height:"100%"}} >
 
           <a className="navbar-brand text-light" href="#">
           </a>
@@ -21,30 +22,30 @@ export const Navbar = () => {
 
           <div className="collapse navbar-collapse ms-4" id="navbarSupportedContent">
 
-            <ul className="navbar-nav me-auto m-2 mb-lg-0 position-absolute bottom-0">
-              <li className="nav-item">
+            <ul className="navbar-nav mb-lg-0 position-absolute bottom-0" style={{marginLeft:"100px"}}>
+              <li className="nav-item" style={{marginLeft:"10px"}}>
                 <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786113/QWE/navbar_inicio-removebg-preview_hwmfky.png" width={80} /></button>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item"style={{marginLeft:"10px"}}>
                 <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/navbar_galeria-removebg-preview_mighg3.png" width={90} /></button>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item"style={{marginLeft:"10px"}}>
                 <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786439/QWE/NAVBAR_TRADUCTOR_BUENO-removebg-preview_kwhdqu.png" width={110} /></button>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item"style={{marginLeft:"10px"}}>
                 <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_NOSOTROS-removebg-preview_qygelp.png" width={95} /></button>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item"style={{marginLeft:"10px"}}>
                 <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_DONACIONES-removebg-preview_xall1v.png" width={120} /></button>
               </li>
             </ul>
 
 
-            <div className="d-flex justify-content-end container-fluid position-absolute top-0 end-0">
+            <div className="d-flex justify-content-end container-fluid position-absolute end-0">
             <form className="d-flex" role="registrarse">
 
               <button className="btn btn-outline-info" type="submit">Registrarse</button>
@@ -67,5 +68,6 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
