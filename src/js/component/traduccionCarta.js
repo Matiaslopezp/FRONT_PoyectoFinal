@@ -8,7 +8,7 @@ export const TraduccionC = (props) => {
     <div className="card-body">
       <h5 className="card-title">{props.titulo}</h5>
       <p className="card-text">{props.parrafo}</p>
-      <Link to={props.rutax}><button className="btn btn-primary">{props.boton}</button></Link>
+      <Link to={props.rutax}><button className="btn btn-primary position-absolute bottom-0 end-0">{props.boton}</button></Link>
     </div>
   </div>
   );
