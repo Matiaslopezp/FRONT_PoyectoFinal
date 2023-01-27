@@ -2,7 +2,18 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
-import { Home } from "./views/home";
+import {Home} from "./views/home"
+import {Traductor} from "./views/traductor"
+import {Restaurant} from "./views/restaurant.js"
+import {Saludos} from "./views/saludos"
+import {Viaje} from "./views/viaje"
+import {Compras} from "./views/compras"
+import {Emergencia} from "./views/emergencia"
+import {Casa} from "./views/casa"
+import {Otros} from "./views/otros"
+import {Calle} from "./views/calle"
+import {Trabajo} from "./views/trabajo"
+
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import { Libreria } from "./views/libreria";
@@ -49,7 +60,18 @@ const Layout = () => {
 					<Navbar />
 					<Routes>
 						<Route path="/donaciones" element={< Donaciones />} />
+						<Route path="/" element={<Home />} />
+						<Route path="/traductor" element={<Traductor/>} />
+						<Route path="/compras" element={<Compras/>} />
+						<Route path="/emergencia" element={<Emergencia/>} />
+						<Route path="/casa" element={<Casa/>} />
+						<Route path="/otros" element={<Otros/>} />
+						<Route path="/viaje" element={<Viaje/>} />
+						<Route path="/calle" element={<Calle/>} />
+						<Route path="/trabajo" element={<Trabajo/>} />
 						<Route path="/demo" element={<Demo />} />
+						<Route path="/restaurant" element={<Restaurant />} />
+						<Route path="/saludos" element={<Saludos/>} />
 						<Route path="/single/:theid" element={<Single />} />
 
 						<Route path="/libreria" element={<Libreria />} />

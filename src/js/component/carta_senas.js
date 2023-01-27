@@ -16,7 +16,11 @@ export const Cartas_senas = (props) => {
     <div className="card-body">
       <h5 className="card-title">{props.titulo}</h5>
       <p className="card-text">{props.parrafo}</p>
+<<<<<<< HEAD
       <Link to={props.ruta}><button className="btn btn-primary">{props.boton}</button></Link>
+=======
+      <Link to={props.ruta}><button className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x">{props.boton}</button></Link>
+>>>>>>> origin/feature/traductor
       
     </div>
   </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import {Cartas_senas} from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 
 export const Otros = () => {
@@ -17,16 +17,20 @@ export const Otros = () => {
             </div>
             <div className="d-flex justify-content-center container-fluid my-5">
 
-                <Cartas_senas titulo="No entiendo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_no.entiendo_p9ll9b.jpg" />
-                <Cartas_senas titulo="Chile" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_Chile_poqxtg.jpg" />
-                <Cartas_senas titulo="Bostezar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_bostezar_l2lff5.jpg" />
+                <Cartas_senas titulo="No entiendo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_no.entiendo_p9ll9b.jpg" boton="❤️"/>
+                <Cartas_senas titulo="Chile" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_Chile_poqxtg.jpg" boton="❤️"/>
+                <Cartas_senas titulo="Bostezar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_bostezar_l2lff5.jpg" boton="❤️"/>
             </div>
 
             <div className="d-flex justify-content-center container-fluid my-5">
-            <Cartas_senas titulo="Café" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_cafe_xldph1.jpg" />
-            <Cartas_senas titulo="Gato" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_gato_n635ud.jpg" />
-            <Cartas_senas titulo="Amigo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_amigo_xzufd0.jpg" />
+            <Cartas_senas titulo="Café" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_cafe_xldph1.jpg" boton="❤️"/>
+            <Cartas_senas titulo="Gato" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_gato_n635ud.jpg" boton="❤️"/>
+            <Cartas_senas titulo="Amigo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_amigo_xzufd0.jpg" boton="❤️"/>
              </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
+             </div>
+             
 </div>)}
 
 export default {Otros};
