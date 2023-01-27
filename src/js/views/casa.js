@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Cartas_senas } from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 export const Casa = () => {
     return (
@@ -26,6 +26,9 @@ export const Casa = () => {
             <Cartas_senas titulo="Bañarse" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_ba%C3%B1arse_oe3d0u.jpg" />
             <Cartas_senas titulo="Dormir" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_domir_mr0eta.jpg" />
             <Cartas_senas titulo="Pieza" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_pieza_ehebb4.jpg" />
+             </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
              </div>
         </div>)
 }

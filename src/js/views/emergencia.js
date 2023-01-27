@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Cartas_senas } from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 export const Emergencia = () => {
     return (
@@ -26,6 +26,9 @@ export const Emergencia = () => {
             <Cartas_senas titulo="Estado grave de salud" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687448/QWE/Emergencia_gravedesalud_j7vcyf.jpg" />
             <Cartas_senas titulo="Ambulancia" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687628/QWE/Emergencia_ambulancia_tvotbd.jpg" />
             <Cartas_senas titulo="Dolor" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687628/QWE/Emergencia_dolor_y3nlin.jpg" />
+             </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
              </div>
         </div>)
 }

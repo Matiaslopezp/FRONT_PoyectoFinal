@@ -1,6 +1,6 @@
 import React from "react";
 import {Cartas_senas} from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 
 export const Calle = () => {
@@ -26,6 +26,9 @@ export const Calle = () => {
             <Cartas_senas titulo="Bici" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688879/QWE/Calle_bici_fy9yzu.jpg" />
             <Cartas_senas titulo="Alameda" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688879/QWE/Calle_alameda_ku1iez.jpg" />
             <Cartas_senas titulo="Auto" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689053/QWE/Calle_automovil_p5mdwr.jpg" />
+             </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
              </div>
 </div>)}
 

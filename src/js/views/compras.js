@@ -1,6 +1,6 @@
 import React from "react";
 import {Cartas_senas} from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 
 export const Compras = () => {
@@ -26,6 +26,9 @@ export const Compras = () => {
             <Cartas_senas titulo="Helado" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688200/QWE/Compras_Helado_rtom1l.jpg" />
             <Cartas_senas titulo="Farmacia" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688200/QWE/Compras_farmacia_ft7jyt.jpg" />
             <Cartas_senas titulo="Feria" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688200/QWE/Compras_feria_d1g0q6.jpg" />
+             </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
              </div>
 </div>)}
 
