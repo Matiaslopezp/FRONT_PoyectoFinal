@@ -24,23 +24,23 @@ export const Navbar = () => {
 
             <ul className="navbar-nav mb-lg-0 position-absolute bottom-0" style={{marginLeft:"100px"}}>
               <li className="nav-item" style={{marginLeft:"10px"}}>
-                <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786113/QWE/navbar_inicio-removebg-preview_hwmfky.png" width={80} /></button>
+              <Link to="/inicio"> <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786113/QWE/navbar_inicio-removebg-preview_hwmfky.png" width={80} /></button></Link>
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-                <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/navbar_galeria-removebg-preview_mighg3.png" width={90} /></button>
+              <Link to="/libreria"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/navbar_galeria-removebg-preview_mighg3.png" width={90} /></button></Link>
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-                <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786439/QWE/NAVBAR_TRADUCTOR_BUENO-removebg-preview_kwhdqu.png" width={110} /></button>
+              <Link to="/traductor"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786439/QWE/NAVBAR_TRADUCTOR_BUENO-removebg-preview_kwhdqu.png" width={110} /></button></Link>
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-                <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_NOSOTROS-removebg-preview_qygelp.png" width={95} /></button>
+              <Link to="/nosotros"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_NOSOTROS-removebg-preview_qygelp.png" width={95} /></button></Link>
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-                <button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_DONACIONES-removebg-preview_xall1v.png" width={120} /></button>
+              <Link to="/donaciones"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_DONACIONES-removebg-preview_xall1v.png" width={120} /></button></Link>
               </li>
             </ul>
 
