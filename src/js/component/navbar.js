@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
-import { Context } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../../img/t-enseñoManos.png";
 
 export const Navbar = () => {
-  const {store,actions}= useContext(Context)
+  
   return (
     <nav className="navbar navbar-expand-lg bg-success">
       <div className="container-fluid" >
@@ -47,10 +46,8 @@ export const Navbar = () => {
               ❤
             </button>
             <ul className="dropdown-menu dropdown-menu-dark">
-             {store.favoritos?.map((value, index)=>{
-              return (<li key={index} className="dropdown-item">{value}</li>)
-            })}
-              </ul>
+             <li className="dropdown-item"></li>
+            </ul>
           </div>
         </div>
       </div>
