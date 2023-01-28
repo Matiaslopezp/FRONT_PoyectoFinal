@@ -48,7 +48,7 @@ export const Navbar = () => {
             <div className="d-flex justify-content-end container-fluid position-absolute end-0">
             <form className="d-flex" role="registrarse">
 
-              <button className="btn btn-outline-info" type="submit">Registrarse</button>
+            <Link to="/register"><button className="btn btn-outline-info" type="submit">Registrarse</button></Link>
             </form>
 
             <div className="dropdown">
@@ -70,4 +70,16 @@ export const Navbar = () => {
     </nav>
     </div>
   );
+	return (
+		<nav className="navbar navbar-light bg-light mb-3">
+			<Link to="/">
+				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+			</Link>
+			<div className="ml-auto">
+				<Link to="/register">
+					<button className="btn btn-primary">Login</button>
+				</Link>
+			</div>
+		</nav>
+	);
 };

@@ -15,6 +15,7 @@ import {Calle} from "./views/calle"
 import {Trabajo} from "./views/trabajo"
 
 import { Demo } from "./views/demo";
+import { Forgotpassword } from "./views/forgotpassword";
 import { Single } from "./views/single";
 import { Libreria } from "./views/libreria";
 import { Canciones } from "./views/canciones";
@@ -30,6 +31,9 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { TraduccionC } from "./component/traduccionCarta";
 import { Donaciones } from "./views/donaciones";
+import { Register } from "./views/register";
+import { Registerform } from "./views/registerform";
+import { Login } from "./views/login";
 
 
 //create your first component
@@ -57,6 +61,10 @@ const Layout = () => {
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/restaurant" element={<Restaurant />} />
 						<Route path="/saludos" element={<Saludos/>} />
+						<Route path="/register" element={<Register />} />
+						<Route path="/registerform" element={<Registerform />} />
+						<Route path="/login" element={<Login />} />
+						<Route path="/forgotpassword" element={<Forgotpassword />} />
 						<Route path="/single/:theid" element={<Single />} />
 						<Route path="/inicio" element={<Inicio />} />
 
