@@ -22,6 +22,7 @@ import { Capsulas } from "./views/capsulas";
 import { Mazapan } from "./views/mazapan";
 import { Aplicacion } from "./views/aplicacion";
 import { Nosotros } from "./views/nosotros";
+import { Inicio } from "./views/inicio";
 
 import injectContext from "./store/appContext";
 
@@ -57,6 +58,7 @@ const Layout = () => {
 						<Route path="/restaurant" element={<Restaurant />} />
 						<Route path="/saludos" element={<Saludos/>} />
 						<Route path="/single/:theid" element={<Single />} />
+						<Route path="/inicio" element={<Inicio />} />
 
 						<Route path="/libreria" element={<Libreria />} />
 						<Route path="/mazapan" element={<Mazapan />} />

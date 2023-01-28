@@ -1,0 +1,124 @@
+/*{
+    border-style: dotted;
+}*/
+
+body{
+    background-color: white;
+    background-image: url(https://res.cloudinary.com/dws1jugpv/image/upload/v1674053320/QWE/Captura_de_pantalla_2023-01-18_114755_k4vt8k.png);
+    background-size: contain;
+}
+
+.todo{
+    background-color: white;
+    margin-right:  5%;
+    margin-left:  5%;
+}
+
+
+.header-1{
+    background-color: #8cd0e3;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 1%;
+    text-align:center;
+    width: 100%;
+   
+}
+
+.header-2{
+    background: linear-gradient(to right,#fb637e 0,#5e549b 100%);
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 1%;
+    text-align:center;
+    width: 100%;
+}
+
+.header-2 img {
+    height: 50px;
+}
+
+.titulo img {
+    height: 50px;
+}
+
+
+.carta1{
+    align-items: center;
+    display: flex;
+    
+}
+
+.logo_carta{
+    text-align:  center;
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-de-degradado-azul-turquesa-ilustraci%C3%B3n-del-vector-197775008.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+
+
+}   
+
+.logo_carta img{
+    background: lightblue;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+
+}
+
+.portada{
+    border-style: groove;
+    background-color:  white;
+    margin-left: 30px;
+    float:left;
+    width: 600px;
+    height: 500px;
+}
+
+.texto{
+    background-image: url(https://res.cloudinary.com/dws1jugpv/image/upload/v1674145607/QWE/FONDO.CARTA_1_fmj6wf.png);
+    width: 1010px;
+    height: 450px;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.texto p{
+    color: black;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.parrafo{
+    color: black;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top:150px;
+}
+
+.logo{
+    text-align:  center;
+    margin-top: 0px;
+}
+
+.logo img{
+    background: lightblue;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.carousel-inner img {
+    height: 650px;
+}
+
+.carousel-inner{
+ height: 450px;
+ padding: 7%;
+}
