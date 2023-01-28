@@ -3,36 +3,48 @@ import "../../styles/footer.css"
 
 
 export const Footer = () => (
-	<div className="footer-fixed-bottom">
-	<footer className="bg-success text-center text-white ">
- 
-  <div className="container p-4 "/>
-  <span>📍 Av. Andres Bello #333, Santiago </span>
-  <p> COPYRIGHT © 2023. DERECHOS RESERVADOS . Sitio desarrollado por estudiantes de 4GeeksAcademy
-  </p>
-  <p>+56255666555</p>
 
-   
-    <section className="mb-4"/>
-      
-      <a className="btn btn-outline-light btn-floating m-4 " href="#!" role="button"
+  <footer className="text-white ">
+    <div className="footer">
+      <div className="container" />
+      <div className="row mb-0">
+        <div className="col-10 mb-0 pl-5">
+          <span>📍 Av. Andres Bello #333, Santiago </span>
+        </div>
+
+        <div className="col-2 pt-3 mb-0 ">
+          <p>contacto@tenseno.cl</p>
+          <p> +56 255 666 555 </p>
+        </div>
+      </div>
+
+      <div className="row-2">
+        <section className="" />
+
+        <a className="btn btn-outline-light btn-floating m-4 " href="#!" role="button"
         ><i className="fab fa-facebook-f"></i
-      ></a>
+        ></a>
 
-      
-      <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
+        <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
         ><i className="fab fa-twitter"></i
-      ></a>
+        ></a>
 
-    
-      <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
+        <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
         ><i className="fab fa-instagram"></i
-      ></a>
-       
-       
-      <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
+        ></a>
+
+        <a className="btn btn-outline-light btn-floating m-4" href="#!" role="button"
         ><i className="fab fa-whatsapp"></i
-      ></a>
-	  </footer>
-	  </div>
+        ></a>
+      </div>
+
+      <div className="row-3">
+        <p> COPYRIGHT © 2023. DERECHOS RESERVADOS . Sitio desarrollado por estudiantes de 4GeeksAcademy
+        </p>
+      </div>
+
+
+    </div>
+  </footer>
+
 );
