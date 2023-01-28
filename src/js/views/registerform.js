@@ -8,24 +8,39 @@ import { Context } from "../store/appContext";
 
 export const Registerform = () => {
     let navigate = useNavigate();
+    const {actions, store} = useContext(Context);
         return (
             <div className="container-md">
                 
                 <form className="row g-3" onSubmit={(event)=>{
                     event.preventDefault();
+                    console.log("este es la prueba",event);
                     let m = event.target[0].value
                     let p = event.target[1].value
                     let rp = event.target[2].value
+                    let fn = event.target[3].value
+                    let ad1 = event.target[4].value
+                    let ad2 = event.target[5].value
+                    let c = event.target[6].value
+                    let s = event.target[7].value
+                    let np = event.target[8].value
+                    console.log(m,p,rp,fn,ad1,ad2,c,s,np);
                     if (p!=rp) {
                         alert("Las contraseñas deben ser identicas")
                     }
-                    if (m=='' || p=='' || rp==''){
+                    if (m=='' || p=='' || rp=='' || fn=='' || ad1=='' || ad2=='' || c=='' || s== '' || np=='' ){
                         alert("Debe completar datos")
                     }
                     else {
-                        alert ("registro completado")
+                        actions.register({mail:m, password:p, fullname:fn, address1:ad1, address2:ad2, city:c, state:s, npostal:np})
+                        alert("Registro completado")
                         navigate('/login')
                     }
+                    //if (actions.login(m,p)){
+                       // alert ("registro completado")
+                       // navigate('/login')
+                    //}
+                    
                     }}>
 
                     <div className="col-md-6">
@@ -39,6 +54,10 @@ export const Registerform = () => {
                     <div className="col-md-6">
                         <label for="inputPassword4" className="form-label">Repeat Password</label>
                         <input type="password" className="form-control" id="inputPassword4"/>
+                    </div>
+                    <div className="col-md-6">
+                        <label for="inputFullname" className="form-label">Full Name</label>
+                        <input type="text" className="form-control" id="inputFullname"/>
                     </div>
                     <div className="col-12">
                         <label for="inputAddress" className="form-label">Address</label>
@@ -60,7 +79,7 @@ export const Registerform = () => {
                         </select>
                     </div>
                     <div className="col-md-2">
-                        <label for="inputZip" className="form-label">Zip</label>
+                        <label for="inputZip" className="form-label">N° postal</label>
                         <input type="text" className="form-control" id="inputZip"/>
                     </div>
                     <div className="col-12">
