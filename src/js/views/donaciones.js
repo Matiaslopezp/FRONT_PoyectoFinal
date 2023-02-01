@@ -5,19 +5,19 @@ import { logo } from "../../img/t-enseño-logo.png";
 export const Donaciones = () => (
   <>
     <div className="Jumbotron">
-      <div className="container text-center mt-5">
+      <div className="container text-center m-5">
         <h1 className="display-4"> </h1>
         <img src="t-enseño-logo.png" width={100} />
-        <p>
+        <h5>
           Somos una organización sin fines de lucro, con el único objetivo de
           brindar el apoyo a la comunidad de sordos de nuestro pais.
-        </p>
-        <p>
+        </h5>
+        <h5>
           Creemos que el apoyo entre los distintos sectores de la sociedad es
           fundamental para hacer del mundo un lugar mejor, por lo mismo,
           entregamos este espacio donde puedes encontrar la forma de comunicarte
           y aprender lengua de señas. Ya sea donando, difundiendo y utilizando nuestra plataforma, cada acción cuenta.
-        </p>
+        </h5>
       </div>
     </div>
 

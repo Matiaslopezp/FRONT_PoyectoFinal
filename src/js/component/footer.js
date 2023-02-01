@@ -4,16 +4,16 @@ import "../../styles/footer.css"
 
 export const Footer = () => (
 
-  <footer className="text-white">
+  <footer className="text-white text-center ">
     <div className="footer">
-      <div className="container" />
+      <div className="container-fluid" />
       <div className="row mb-0">
-        <div className="col-10 mb-0 pl-5">
+        <div className="text-center pt-3">
           <span>📍 Av. Andres Bello #333, Santiago </span>
         </div>
 
-        <div className="col-2 pt-3 mb-0 ">
-          <p>contacto@tenseno.cl</p>
+        <div className=" text-center  ">
+          <p>contacto@tenseño.cl</p>
           <p> +56 255 666 555 </p>
         </div>
       </div>
@@ -38,8 +38,8 @@ export const Footer = () => (
         ></a>
       </div>
 
-      <div className="row-3">
-        <p> COPYRIGHT © 2023. DERECHOS RESERVADOS . Sitio desarrollado por estudiantes de 4GeeksAcademy
+      <div className="row-3 pb-2">
+        <p> COPYRIGHT © 2023. DERECHOS RESERVADOS. Sitio desarrollado por estudiantes de 4GeeksAcademy
         </p>
       </div>
 
