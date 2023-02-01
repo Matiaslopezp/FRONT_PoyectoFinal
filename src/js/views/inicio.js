@@ -13,7 +13,7 @@ export const Inicio = () => {
              <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
             </div>
 
-            <div className="carta1 ">
+            <div className="carta1 d-flex">
 
                 <div className="portada">
                     <div className="logo_carta">
@@ -23,8 +23,15 @@ export const Inicio = () => {
 
                 <div className="texto">
                     <div className="parrafo">
-                        <p><strong>Traductor LSCh:</strong></p>
-                        <p>Una aplicación para que nosotros nos adaptemos a ELLOS!</p>
+                        <h2><strong>Bienvenid@ a T-enseño</strong></h2>
+                        <p>Somos una plataforma dedicada a la divulgación y promoción de la lengua de señas chilena. 
+                            Nuestro objetivo es educar y sensibilizar a la sociedad sobre la importancia de esta lengua,
+                            brindar recursos y herramientas útiles para aquellos interesados en aprender más sobre ella. 
+                            En esta página encontrarás el contenido suficiente como para integrarte poco a poco en el 
+                            aprendizaje y el uso de la lengua de señas chilena, así como videos y tutoriales para aprender
+                            a comunicarte con esta lengua. 
+                            Únete a nosotros en esta misión para difundir la lengua de señas chilena y apoyar a la comunidad sorda. 
+                            ¡Explora nuestro sitio y comienza tu aprendizaje hoy! </p>
                     </div>
                 </div>
 

@@ -28,7 +28,7 @@ export const Navbar = () => {
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-              <Link to="/libreria"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/navbar_galeria-removebg-preview_mighg3.png" width={90} /></button></Link>
+              <Link to="/nosotros"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_NOSOTROS-removebg-preview_qygelp.png" width={95} /></button></Link>
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
@@ -36,8 +36,9 @@ export const Navbar = () => {
               </li>
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
-              <Link to="/nosotros"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_NOSOTROS-removebg-preview_qygelp.png" width={95} /></button></Link>
+              <Link to="/libreria"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/navbar_galeria-removebg-preview_mighg3.png" width={90} /></button></Link>
               </li>
+            
 
               <li className="nav-item"style={{marginLeft:"10px"}}>
               <Link to="/donaciones"><button className="btn btn-outline-link text-light m-1" type="submit"><img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674786438/QWE/NAVBAR_DONACIONES-removebg-preview_xall1v.png" width={120} /></button></Link>
