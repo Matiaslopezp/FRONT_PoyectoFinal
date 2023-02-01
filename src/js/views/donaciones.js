@@ -22,23 +22,8 @@ export const Donaciones = () => (
     </div>
 
 
-    <div className=" col-auto text-center m-5">
-      <div>
-        <ul className="container list-group m-5 pt-5">
-          <li className="list-group-item disabled" aria-disabled="true">
-            Datos Bancarios
-          </li>
-          <li className="list-group-item">Banco : Banco de Chile</li>
-          <li className="list-group-item">Cta. corriente : 99008837434422</li>
-          <li className="list-group-item">Email: t.enseñoseñas@gmail.com</li>
-          <li className="list-group-item">Rut : 88.937.423.5</li>
-          <li className="list-group-item">Nombre : Te enseño señas .LTA</li>
-        </ul>
-      </div>
-      <div className="align-self-right">
-        <img src="https://todosdecidimos.org/wp-content/uploads/2022/11/donaciones-deducibles-de-impuestos.png" className="rounded-circle" width={"300"} alt="..."></img>
-
-      </div>
+    <div className=" col-auto text-center  ">
+      <img src="https://res.cloudinary.com/djgongdnn/image/upload/v1675282906/proyecto%20final/Datos_Bancarios-removebg-preview_ed0isv.png"/>
     </div >
     <div className="text-center m-5">
       <p>Todas las donaciones están protegidas por PAYPAL.</p>

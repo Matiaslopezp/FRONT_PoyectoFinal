@@ -8,12 +8,12 @@ export const Navbar = () => {
     <div className="">
     <nav className="navbar navbar-expand-lg " >
       <div className="cuerpo" style={{ height: "100%" }}>
-        <div className="d-flex justify-content-center container-fluid" style={{height:"100%"}} >
+        <div className="d-flex container-fluid " style={{height:"100%"}} >
 
           <a className="navbar-brand text-light" href="#">
           </a>
 
-          <img src="t-enseñoManos.png" width={95} />
+          <img src="t-enseñoManos.png" width={100} />
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ export const Navbar = () => {
             <div className="d-flex justify-content-end container-fluid position-absolute end-0">
             <form className="d-flex" role="registrarse">
 
-            <Link to="/register"><button className="btn btn-outline-info" type="submit">Registrarse</button></Link>
+            <Link to="/register"><button className="btn btn-info m-2 " type="submit">Registrarse</button></Link>
             </form>
 
             <div className="dropdown">
