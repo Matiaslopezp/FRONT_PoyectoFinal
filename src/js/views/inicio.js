@@ -9,31 +9,26 @@ export const Inicio = () => {
             <div className="header-1">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
             </div>
+
             <div className="header-2">
-             <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
             </div>
 
-            <div className="carta1 d-flex">
+            <div className="row d-flex p-5">
 
-                <div className="portada">
-                    <div className="logo_carta">
-                        <img src="https://res.cloudinary.com/dws1jugpv/image/upload/c_thumb,w_200,g_face/v1673904209/QWE/WhatsApp_Image_2023-01-14_at_11.05.18_AM_sty0d8.jpg" />
-                    </div>
+                <div className="col-4">
+                    <img src="https://images.unsplash.com/photo-1491439833076-514a03b24a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="img-fluid rounded-pill" />
                 </div>
 
-                <div className="texto">
-                    <div className="parrafo">
-                        <h2><strong>Bienvenid@ a T-enseño</strong></h2>
-                        <p>Somos una plataforma dedicada a la divulgación y promoción de la lengua de señas chilena. 
-                            Nuestro objetivo es educar y sensibilizar a la sociedad sobre la importancia de esta lengua,
-                            brindar recursos y herramientas útiles para aquellos interesados en aprender más sobre ella. 
-                            En esta página encontrarás el contenido suficiente como para integrarte poco a poco en el 
-                            aprendizaje y el uso de la lengua de señas chilena, así como videos y tutoriales para aprender
-                            a comunicarte con esta lengua. 
-                            Únete a nosotros en esta misión para difundir la lengua de señas chilena y apoyar a la comunidad sorda. 
-                            ¡Explora nuestro sitio y comienza tu aprendizaje hoy! </p>
-                    </div>
+                <div className="col-8 m-9">
+                    <h2 className="text-center lh-base"><strong>Bienvenido/a a T-enseño</strong></h2>
+                    <p className="h6 lead text-center lh-base">Somos una plataforma que se dedica a la promoción y divulgación de la Lengua de Señas Chilena (LSCh). 
+                        Aquí, nos enfocamos en brindar información y recursos audiovisuales para todos aquellos interesados en aprender y comprender
+                        esta importante forma de comunicación. <br></br>
+                        En nuestro sitio encontrarás una recopilación de contenido, videos y tutoriales para aprender la LSCh y apoyar a la comunidad sorda.</p>
+                    <h4 className="lh-base">¡Únete a nosotros y comienza tu aprendizaje hoy!</h4>
                 </div>
+                
 
             </div>
 
