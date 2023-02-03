@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../../img/t-enseñoManos.png";
 import "../../styles/navbar.css"
+import { Context } from "../store/appContext";
 
 export const Navbar = () => {
+const {store,actions}=useContext(Context)
+
   return (
     <div className="fixed-top">
       <nav className="navbar navbar-expand-lg " >
@@ -61,9 +64,9 @@ export const Navbar = () => {
                   </button>
                     
                     <ul className="dropdown-menu">
-                    <li><a className="dropdown-item active">Saludar <button><i className="fas fa-trash-alt"></i></button></a></li>
-                    <li><a className="dropdown-item" >Comer <button><i className="fas fa-trash-alt"></i></button> </a></li>
-                    <li><a className="dropdown-item" >Bailar <button><i className="fas fa-trash-alt"></i></button></a></li>
+                    {store.favoritos.map((value,index)=>{
+                      return (<li key={index} className="dopdown-item"> {value}<i class="fas fa-trash-alt"></i></li>)
+                    })}
                     </ul>
                   </div>
                  
