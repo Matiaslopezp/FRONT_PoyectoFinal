@@ -4,7 +4,10 @@ export const Mazapan = ()=> {
     return (
         <div className="container">
             <div className="row">
-                <h1> Mazapán en Lengua de Señas </h1>
+            <div className="header-1">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+            </div>
+                
                 <h4>En esta sección encontrarás las clásicas canciones infantiles del grupo chileno <em>Mazapán,</em> interpretadas por
                     María Siebald en su canal de YouTube. <br></br> </h4>
                 <h5>Revisa este entretenido listado de canciones y anímate a practicarlas en familia!</h5>

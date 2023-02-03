@@ -4,6 +4,9 @@ export const Capsulas = ()=> {
     return (
         <div className="container">
             <div className="row">
+            <div className="header-1">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+            </div>
                 <h4>En los siguientes videos podrás ampliar tu vocabulario en LSCh. Aprenderás a saludar, a deletrear tu 
                     nombre, los números, los verbos, frutas, verduras, y un largo etc!
                 </h4>
