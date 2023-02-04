@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <div className="">
-    <nav className="navbar navbar-expand-lg " >
+    <nav className="navbar navbar-expand-lg pt-0" >
       <div className="cuerpo" style={{ height: "100%" }}>
         <div className="d-flex container-fluid " style={{height:"100%"}} >
 

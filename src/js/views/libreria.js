@@ -17,10 +17,10 @@ export const Libreria = () => {
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674147077/QWE/libreria_digital-removebg-preview_btfzl8.png" />
             </div>
 
-            <div className="row">
-                <div className="m-5">
-                    <h2>Aquí encontrarás material audiovisual complementario, en donde podrás explorar diferentes formas de aprender
-                        la Lengua de Señas Chilena:
+            <div className="row ">
+                <div className="m-5 ">
+                    <h2>Aquí encontrarás material audiovisual complementario, en donde podrás explorar diferentes 
+                        formas de aprender la Lengua de Señas Chilena:
                     </h2>
                 </div>
 

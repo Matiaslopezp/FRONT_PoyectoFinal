@@ -14,7 +14,7 @@ export const Inicio = () => {
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
             </div>
 
-            <div className="row d-flex p-5">
+            <div className="row d-flex p-5 ">
 
                 <div className="col-4">
                     <img src="https://images.unsplash.com/photo-1491439833076-514a03b24a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="img-fluid rounded-pill" />

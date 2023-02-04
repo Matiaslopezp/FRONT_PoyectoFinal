@@ -7,7 +7,7 @@ export const Donaciones = () => (
     <div className="Jumbotron">
       <div className="container text-center m-5">
         <h1 className="display-4"> </h1>
-        <img src="t-enseño-logo.png" width={100} />
+        <img src="t-enseño-logo.png" width={150} />
         <h5>
           Somos una organización sin fines de lucro, con el único objetivo de
           brindar el apoyo a la comunidad de sordos de nuestro pais.
@@ -22,8 +22,11 @@ export const Donaciones = () => (
     </div>
 
 
-    <div className=" col-auto text-center  ">
-      <img src="https://res.cloudinary.com/djgongdnn/image/upload/v1675282906/proyecto%20final/Datos_Bancarios-removebg-preview_ed0isv.png"/>
+    <div className=" col-auto text-center pt-5">
+    
+
+
+      <img src="https://res.cloudinary.com/djgongdnn/image/upload/v1675480085/proyecto%20final/Datos_Bancarios_3_-removebg-preview_uylctr.png" />
     </div >
     <div className="text-center m-5">
       <p>Todas las donaciones están protegidas por PAYPAL.</p>
