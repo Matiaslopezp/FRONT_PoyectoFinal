@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../../img/t-enseñoManos.png";
 import "../../styles/navbar.css"
+import { Context } from "../store/appContext";
 
 export const Navbar = () => {
+  const {store,actions}=useContext(Context)
+
   return (
     <div className="">
     <nav className="navbar navbar-expand-lg " >
@@ -52,17 +55,17 @@ export const Navbar = () => {
             <Link to="/register"><button className="btn btn-info m-2 " type="submit">Registrarse</button></Link>
             </form>
 
-            <div className="dropdown">
-              <button className="btn btn-outline-danger dropdown-toggle m-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                ❤
-              </button>
-
-              <ul className="dropdown-menu dropdown-menu-dark">
-                <li><a className="dropdown-item active" href="#"></a></li>
-                <li><a className="dropdown-item" href="#"></a></li>
-                <li><a className="dropdown-item" href="#"></a></li>
-              </ul>
-            </div>
+            <div className="btn-group dropstart">
+                  <button className="btn btn-outline-danger dropdown-toggle m-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ❤
+                  </button>
+                    
+                    <ul className="dropdown-menu">
+                    {store.favoritos.map((value,index)=>{
+                      return (<li key={index} className="dopdown-item"> {value}<i class="fas fa-trash-alt"></i></li>)
+                    })}
+                    </ul>
+                  </div>
             </div>
 
           </div>
