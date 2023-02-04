@@ -21,7 +21,7 @@ export const Login = () => {
                     
                     else if (actions.login(m,p)){
 						
-                        navigate('/inicio')
+                        navigate('/')
                     }
 
                     

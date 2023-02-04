@@ -31,17 +31,16 @@ export const Registerform = () => {
                     if (m=='' || p=='' || rp=='' || fn=='' || ad1=='' || ad2=='' || c=='' || s== '' || np=='' ){
                         alert("Debe completar datos")
                     }
+
                     else {
-                        actions.register({mail:m, password:p, fullname:fn, address1:ad1, address2:ad2, city:c, state:s, npostal:np})
-                        alert("Registro completado")
-                        navigate('/login')
-                    }
-                    //if (actions.login(m,p)){
-                       // alert ("registro completado")
-                       // navigate('/login')
-                    //}
-                    
-                    }}>
+                        let register = actions.register({mail:m, password:p, fullname:fn, address1:ad1, address2:ad2, city:c, state:s, npostal:np})
+                        
+                        if (register){
+                            alert("Registro completado")
+                            navigate('/login')     
+                        }
+                        
+                    }}}>
 
                     <div className="col-md-6">
                         <label for="inputEmail4" className="form-label">Email</label>

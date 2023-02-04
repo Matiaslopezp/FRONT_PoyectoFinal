@@ -24,44 +24,47 @@ const getState = ({ getStore, getActions, setStore }) => {
 					fetch().then().then(data => setStore({ "foo": data.bar }))
 				*/
       },
-      register: (mail,password,fullname,address1,address2,city,state,npostal) => {
-			let respuesta2 = false;
-			var myHeaders = new Headers();
-			myHeaders.append("Content-Type", "application/json");
+      register: async (form) => {
+        let respuesta2 = false;
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+          
+        var raw = JSON.stringify({
+          email: form.mail,
+          password: form.password,
+          fullname: form.fullname,
+          address1: form.address1,
+          address2: form.address2,
+          city: form.city,
+          state: form.state,
+          npostal: form.npostal,
+        });
+        
+        var requestOptions = {
+          method: "POST",
+          headers: myHeaders,
+          body: raw,
+          redirect: "follow",
+        };
+        
+        const response = await  fetch(
+          "https://3000-4geeksacade-flaskresthe-czhk1bs7kpb.ws-us85.gitpod.io/register",
+          requestOptions
+        )
+        const data = await response.json();
+        
+        if(!response.ok) {
+          const error = (data && data.message) || response.statusText;
+          console.log("error", error)
+        } 
+        else {
+          respuesta2 = true;
+        }
+        
+        return respuesta2;
+      },
 
-			var raw = JSON.stringify({
-			email: mail,
-			password: password,
-			fullname: fullname,
-			address1: address1,
-			address2: address2,
-			city: city,
-			state: state,
-			npostal: npostal,
-			});
-
-			var requestOptions = {
-			method: "POST",
-			headers: myHeaders,
-			body: raw,
-			redirect: "follow",
-			};
-
-			fetch(
-			"https://3000-4geeksacade-flaskresthe-czhk1bs7kpb.ws-us84.gitpod.io/register",
-			requestOptions
-			)
-			.then((response) => response.json())
-			.then((result) => {
-				console.log(result);
-				respuesta2 = true;
-			})
-			.catch((error) => console.log("error", error));
-
-		return respuesta2;
-      	},
-
-      login: (mail, pass) => {
+      login: async (mail, pass) => {
         let respuesta = false;
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
@@ -78,17 +81,20 @@ const getState = ({ getStore, getActions, setStore }) => {
           redirect: "follow",
         };
 
-        fetch(
-          "https://3000-4geeksacade-flaskresthe-czhk1bs7kpb.ws-us84.gitpod.io/login",
+        const response = await  fetch(
+          "https://3000-4geeksacade-flaskresthe-czhk1bs7kpb.ws-us85.gitpod.io/login",
           requestOptions
         )
-          .then((response) => response.json())
-          .then((result) => {
-            console.log(result);
-            respuesta = true;
-          })
-          .catch((error) => console.log("error", error));
-
+        const data = await response.json();
+        
+        if(!response.ok) {
+          const error = (data && data.message) || response.statusText;
+          console.log("error", error)
+        } 
+        else {
+          respuesta = true;
+        }
+        
         return respuesta;
       },
 
