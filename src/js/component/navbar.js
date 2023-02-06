@@ -8,8 +8,8 @@ export const Navbar = () => {
   const {store,actions}=useContext(Context)
 
   return (
-    <div className="">
-    <nav className="navbar navbar-expand-lg pt-0" >
+    <div className="row">
+    <nav className="navbar navbar-expand-lg pt-0 col-12 col-xs-4 d-flex" >
       <div className="cuerpo" style={{ height: "100%" }}>
         <div className="d-flex container-fluid " style={{height:"100%"}} >
 
@@ -23,7 +23,7 @@ export const Navbar = () => {
           </button>
 
 
-          <div className="collapse navbar-collapse ms-4" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse ms-4 d-flex col-12 col-xs-4" id="navbarSupportedContent">
 
             <ul className="navbar-nav mb-lg-0 position-absolute bottom-0" style={{marginLeft:"100px"}}>
               <li className="nav-item" style={{marginLeft:"10px"}}>

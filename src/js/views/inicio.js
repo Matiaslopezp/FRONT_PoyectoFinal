@@ -14,13 +14,13 @@ export const Inicio = () => {
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146772/QWE/inicio-removebg-preview_hs3ydg.png" />
             </div>
 
-            <div className="row d-flex p-5 ">
+            <div className="row d-flex p-5 col-12">
 
-                <div className="col-4">
+                <div className="col-md-12 col-lg-4">
                     <img src="https://images.unsplash.com/photo-1491439833076-514a03b24a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="img-fluid rounded-pill" />
                 </div>
 
-                <div className="col-8 m-9">
+                <div className="col-md-12 col-lg-8 m-9">
                     <h2 className="text-center lh-base"><strong>Bienvenido/a a T-enseño</strong></h2>
                     <p className="h6 lead text-center lh-base">Somos una plataforma que se dedica a la promoción y divulgación de la Lengua de Señas Chilena (LSCh). 
                         Aquí, nos enfocamos en brindar información y recursos audiovisuales para todos aquellos interesados en aprender y comprender
