@@ -14,7 +14,7 @@ export const Footer = () => (
 
         <div className=" text-center  ">
           <p>contacto@tenseño.cl</p>
-          <p> +56 255 666 555 </p>
+          <p> +56255666555 </p>
         </div>
       </div>
 
