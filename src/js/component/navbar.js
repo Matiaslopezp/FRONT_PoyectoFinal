@@ -62,7 +62,7 @@ export const Navbar = () => {
                     
                     <ul className="dropdown-menu">
                     {store.favoritos.map((value,index)=>{
-                      return (<li key={index} className="dopdown-item"> {value}<i class="fas fa-trash-alt"></i></li>)
+                      return (<li key={index} className="dopdown-item"> {value}  <button><i class="fas fa-trash-alt"></i></button></li>)
                     })}
                     </ul>
                   </div>
