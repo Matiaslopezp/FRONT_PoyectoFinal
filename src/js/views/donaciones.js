@@ -5,7 +5,7 @@ import { logo } from "../../img/t-enseño-logo.png";
 export const Donaciones = () => (
   <>
     <div className="Jumbotron">
-      <div className="container text-center m-5">
+      <div className="container text-center m-5 col-12">
         <h1 className="display-4"> </h1>
         <img src="t-enseño-logo.png" width={150} />
         <h5>
