@@ -39,8 +39,9 @@ export const Footer = () => (
       </div>
 
       <div className="row-3 pb-2">
-        <p> COPYRIGHT © 2023. DERECHOS RESERVADOS. Sitio desarrollado por estudiantes de 4GeeksAcademy
+        <p>  Sitio web desarrollado por estudiantes de 4GeeksAcademy.
         </p>
+        <p>COPYRIGHT © 2023. DERECHOS RESERVADOS.</p>
       </div>
 
 
