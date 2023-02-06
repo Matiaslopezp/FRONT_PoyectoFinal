@@ -15,14 +15,14 @@ export const Trabajo = () => {
             <div className="header-3">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674686671/QWE/Titulo.trabajo-removebg-preview_jd9rxi.png" />
             </div>
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
 
                 <Cartas_senas titulo="Idea" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689406/QWE/Trabajo_idea_xinmob.jpg" boton="❤️"/>
                 <Cartas_senas titulo="Oficina" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689405/QWE/Trabajo_oficina_xbvcge.jpg" boton="❤️"/>
                 <Cartas_senas titulo="Ocupado" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689406/QWE/Trabajo_ocupado_2_vtdiw4.jpg" boton="❤️"/>
             </div>
 
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
             <Cartas_senas titulo="Escribir" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689405/QWE/Trabajo_escribir_izvid7.jpg" boton="❤️"/>
             <Cartas_senas titulo="Ganar dinero" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689405/QWE/Trabajo_ganar.dinero_rr9m9q.jpg" boton="❤️"/>
             <Cartas_senas titulo="Firma" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674689405/QWE/Trabajo_firma_tpglhu.jpg" boton="❤️"/>

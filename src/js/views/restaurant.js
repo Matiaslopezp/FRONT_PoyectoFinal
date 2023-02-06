@@ -19,14 +19,14 @@ export const Restaurant = () => {
             <div className="header-3">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674601994/QWE/Titulo_restaurant-removebg-preview_1_umhjfp.png" />
             </div>
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
 
                 <Cartas_senas titulo="Menu" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600508/QWE/Restaurant_menu_efpava.jpg" boton="❤️"/>
                 <Cartas_senas titulo="Mozo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674600618/QWE/Restaurant_mozo_yycc0g.jpg" boton="❤️" />
                 <Cartas_senas titulo="Baño" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674603233/QWE/Viaje_bano_rzp1tc.jpg" boton="❤️" />
             </div>
 
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
             <Cartas_senas titulo="Hambre" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687036/QWE/Restaurant_hambre_jmatrs.jpg" boton="❤️"/>
             <Cartas_senas titulo="Mesa" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687090/QWE/Restaurant_mesa_dfhjwc.jpg" boton="❤️"/>
             <Cartas_senas titulo="Paga" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687274/QWE/Reastaurant_pagar_xvufxo.jpg" boton="❤️"/>

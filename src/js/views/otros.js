@@ -15,14 +15,14 @@ export const Otros = () => {
             <div className="header-3">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674686193/QWE/Titulo.otros-removebg-preview_crsrts.png" />
             </div>
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
 
                 <Cartas_senas titulo="No entiendo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_no.entiendo_p9ll9b.jpg" boton="❤️"/>
                 <Cartas_senas titulo="Chile" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_Chile_poqxtg.jpg" boton="❤️"/>
                 <Cartas_senas titulo="Bostezar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_bostezar_l2lff5.jpg" boton="❤️"/>
             </div>
 
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
             <Cartas_senas titulo="Café" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_cafe_xldph1.jpg" boton="❤️"/>
             <Cartas_senas titulo="Gato" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_gato_n635ud.jpg" boton="❤️"/>
             <Cartas_senas titulo="Amigo" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674688609/QWE/Otros_amigo_xzufd0.jpg" boton="❤️"/>
