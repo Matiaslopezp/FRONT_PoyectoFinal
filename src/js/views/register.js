@@ -37,23 +37,23 @@ export const Register = () => {
 				<div className="col-4 position-absolute end-0">	
 					<div className="panel-header col-4">
 						<h2 className="panel-heder">
-						HEY! OYEEEE!
+							HEY! OYEEEE!
 						</h2>
 						<p>
-						Si ya estas registrado presiona e ingresa
+							Si aun no te registras presiona y completa el formulario
 						</p>
 					</div>
-						
-					<div className="ml-auto">
-						
-						<Link to="/login">
-							<button type="submit" className="btn btn-primary">Login</button>
-						</Link>
-						</div>
-						
+					<Link to="/registerform">
+						<button className="btn btn-primary">Register</button>
+					</Link>
+					
 				</div>
+						
+	
+						
 			</div>
 		</div>
+		
 			
-		);
-	};
+	);
+};
