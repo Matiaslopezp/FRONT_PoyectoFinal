@@ -4,8 +4,13 @@ export const Canciones = ()=> {
     return (
         <div className="container">
             <div className="row">
+            
             <div className="header-1">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+            </div>
+            
+            <div className="header-2">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674147077/QWE/libreria_digital-removebg-preview_btfzl8.png" />
             </div>
                 <h1> Canciones de ayer y hoy</h1>
                 <h4>En este apartado podrás encontrar variedad de canciones de grupos chilenos y extranjeros interpretados por María Siebald, Daniela

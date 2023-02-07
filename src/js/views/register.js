@@ -15,7 +15,7 @@ export const Register = () => {
 			</div>
 			
 			<div className="header-2">
-                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674493644/QWE/traductor-removebg-preview_ks0wgh.png" />
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1675788488/QWE/Captura_de_pantalla_2023-02-07_a_la_s__13.46.35-removebg-preview_tbffrj.png" />
             </div>
 
 			<div className="row justify-content-evenly">

@@ -10,6 +10,10 @@ export const Login = () => {
     const {actions, store} = useContext(Context);
         return (
             <div className="container p-5 m-7" style={{marginBottom: "200px"}}>	
+            <div className="header-1">
+				<img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+			</div>
+			
                 <form className="container p-5 justify-contente-center" style={{marginLeft: "250px"}}
                     onSubmit={(event)=>{
                     event.preventDefault();

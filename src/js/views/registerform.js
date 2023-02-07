@@ -11,6 +11,10 @@ export const Registerform = () => {
     const {actions, store} = useContext(Context);
         return (
             <div className="container-md">
+            <div className="header-1 mb-5">
+				<img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+			</div>
+			
                 
                 <form className="row g-3" onSubmit={(event)=>{
                     event.preventDefault();

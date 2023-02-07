@@ -4,9 +4,15 @@ export const Aplicacion = () => {
     return (
         <div className="container">
             <div className="row m-5">
+            
             <div className="header-1">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
             </div>
+            
+            <div className="header-2">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674147077/QWE/libreria_digital-removebg-preview_btfzl8.png" />
+            </div>
+            
                 <h1>App móvil IncluSeñas</h1>
                 <h3>Si tu intención es aprender y practicar la lengua de señas en cualquier parte que te encuentres, entonces esta App es para ti!  </h3>
             </div>

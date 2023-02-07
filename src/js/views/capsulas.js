@@ -4,8 +4,13 @@ export const Capsulas = ()=> {
     return (
         <div className="container">
             <div className="row">
+            
             <div className="header-1">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674146531/QWE/T_ENSE%C3%91O-removebg-preview_1_qgutke.png" />
+            </div>
+            
+            <div className="header-2">
+                <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674147077/QWE/libreria_digital-removebg-preview_btfzl8.png" />
             </div>
                 <h1> Cápsulas Educativas </h1>
                 <h4>En los siguientes videos podrás ampliar tu vocabulario en LSCh. Aprenderás a saludar, a deletrear tu 
