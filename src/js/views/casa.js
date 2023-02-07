@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Cartas_senas } from "../component/carta_senas.js"
-
+import {Boton} from "../component/boton.js"
 
 export const Casa = () => {
     return (
@@ -15,17 +15,20 @@ export const Casa = () => {
             <div className="header-3">
                 <img src="https://res.cloudinary.com/dws1jugpv/image/upload/v1674685829/QWE/Titulo_enlacasa-removebg-preview_somd2h.png" />
             </div>
-            <div className="d-flex justify-content-center container-fluid my-5">
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
 
-                <Cartas_senas titulo="Estudiar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_estudiar_bl9xoy.jpg" />
-                <Cartas_senas titulo="Baño" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_ba%C3%B1o_yybdy2.jpg" />
-                <Cartas_senas titulo="Barrer" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_Barrer_dovusy.jpg" />
+                <Cartas_senas titulo="Estudiar" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_estudiar_bl9xoy.jpg" boton="❤️"/>
+                <Cartas_senas titulo="Baño" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_ba%C3%B1o_yybdy2.jpg" boton="❤️"/>
+                <Cartas_senas titulo="Barrer" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_Barrer_dovusy.jpg" boton="❤️"/>
             </div>
 
-            <div className="d-flex justify-content-center container-fluid my-5">
-            <Cartas_senas titulo="Bañarse" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_ba%C3%B1arse_oe3d0u.jpg" />
-            <Cartas_senas titulo="Dormir" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_domir_mr0eta.jpg" />
-            <Cartas_senas titulo="Pieza" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_pieza_ehebb4.jpg" />
+            <div className="d-flex justify-content-center container-fluid my-5 row row-cols-3">
+            <Cartas_senas titulo="Bañarse" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_ba%C3%B1arse_oe3d0u.jpg" boton="❤️"/>
+            <Cartas_senas titulo="Dormir" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_domir_mr0eta.jpg" boton="❤️"/>
+            <Cartas_senas titulo="Pieza" imagen="https://res.cloudinary.com/dws1jugpv/image/upload/v1674687805/QWE/Casa_pieza_ehebb4.jpg" boton="❤️"/>
+             </div>
+             <div className="d-flex justify-content-center container-fluid pb-5">
+             <Boton ruta="/traductor"/>
              </div>
         </div>)
 }

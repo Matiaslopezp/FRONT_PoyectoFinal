@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    background-image: url(https://res.cloudinary.com/dws1jugpv/image/upload/v1674053320/QWE/Captura_de_pantalla_2023-01-18_114755_k4vt8k.png);
+    background-size: cover;
+}
+
+
+.todo{
+    background-color: white;
+    margin-right:  5%;
+    margin-left:  5%;
+   }
+
+
+.header-1{
+    background-color: #8cd0e3;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 1%;
+    text-align:center;
+    width: 100%;
+   
+}
+
+.registro{
+    background-color: #fff;
+    padding: 90px 82px;
+    width: 40.5%;
+    text-align: center;
+    margin: 0 5% 0 0;
+    display: inline-block;
+    float: none;
+    vertical-align: top
+}
+
+.login{
+    background-color: #fff;
+    padding: 90px 82px;
+    width: 40.5%;
+    text-align: center;
+    margin: 0 5% 0 0;
+    display: inline-block;
+    float: none;
+    vertical-align: top
+}
+
