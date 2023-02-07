@@ -21,3 +21,26 @@ body{
     width: 100%;
    
 }
+
+.registro{
+    background-color: #fff;
+    padding: 90px 82px;
+    width: 40.5%;
+    text-align: center;
+    margin: 0 5% 0 0;
+    display: inline-block;
+    float: none;
+    vertical-align: top
+}
+
+.login{
+    background-color: #fff;
+    padding: 90px 82px;
+    width: 40.5%;
+    text-align: center;
+    margin: 0 5% 0 0;
+    display: inline-block;
+    float: none;
+    vertical-align: top
+}
+

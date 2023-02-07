@@ -20,13 +20,13 @@ export const Register = () => {
 
 			<div className="row justify-content-evenly">
 
-				<div className="col-4">
+				<div className="registro col-4">
 					<div className="text-center">
 						<h2 className="panel-heder">
-						HEY! OYEEEE!
+						Hey! Oyeee!
 						</h2>
 						<p>
-						Si aun no te registras presiona y completa el formulario
+						Si aun no te registras presiona y completa el formulario. Cuando creas una cuenta, tienes acceso a multiples funciones que te ayudaran en la comunicacion a traves de señas. 
 						</p>
 					</div>
 					<div className="text-center">
@@ -37,22 +37,22 @@ export const Register = () => {
 				</div>
 
 
-				<div className="col-4">	
-					<span className="border border-info">
-						<div className="text-center">
-							<h2 className="panel-heder">
-								HEY! OYEEEE!
-							</h2>
-							<p>
-								Si aun no te registras presiona y completa el formulario
-							</p>
-						</div>
-						<div className="text-center">
-							<Link to="/registerform">
-								<button className="btn btn-primary">Register</button>
-							</Link>
-						</div>
-					</span>
+				<div className="login col-4">	
+					
+					<div className="text-center">
+						<h2 className="panel-heder">
+							Bienvenido de nuevo!
+						</h2>
+						<p>
+							De vuelta a la comunidad! Ingresa a tu cuenta
+						</p>
+					</div>
+					<div className="text-center">
+						<Link to="/login">
+							<button className="btn btn-primary">Login</button>
+						</Link>
+					</div>
+					
 				</div>
 						
 	
